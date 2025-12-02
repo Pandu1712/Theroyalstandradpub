@@ -1,6 +1,10 @@
 import { Utensils, Users, Music, Calendar, Gift, Award } from 'lucide-react';
 
-const Services = () => {
+interface PageProps {
+  onNavigate: (page: string, itemId?: string) => void;
+}
+
+const Services = ({ onNavigate }: PageProps) => {
   const services = [
     {
       icon: <Utensils className="w-12 h-12" />,
@@ -47,8 +51,10 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
+    <section id='services'>
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="text-center mb-16 animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
@@ -94,12 +100,19 @@ const Services = () => {
           <p className="text-gray-300 mb-8 text-lg">
             Contact us today to learn more about our offerings and how we can serve you better
           </p>
-          <button className="px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50">
+
+          <button
+            onClick={() => onNavigate('Contact')}
+            className="px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50"
+          >
             Get in Touch
           </button>
         </div>
+
       </div>
     </div>
+
+    </section>
   );
 };
 

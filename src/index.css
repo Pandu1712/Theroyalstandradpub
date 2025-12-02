@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Apply Serif + Italic to entire website */
+body {
+  font-family: serif;
+  font-style: italic;
+}
+
+
 @layer utilities {
   @keyframes fadeInUp {
     from {

@@ -18,7 +18,8 @@ const Menu = ({ onNavigate }: MenuProps) => {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
+    <section id='menu'>
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
@@ -119,6 +120,8 @@ const Menu = ({ onNavigate }: MenuProps) => {
         )}
       </div>
     </div>
+
+    </section>
   );
 };
 
