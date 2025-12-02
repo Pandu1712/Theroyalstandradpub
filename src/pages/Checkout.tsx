@@ -1,19 +1,19 @@
 import { useState, FormEvent } from 'react';
 import { Clock, User, Mail, Phone, Check } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useNavigate } from 'react-router-dom';
 
-interface CheckoutProps {
-  onNavigate: (page: string) => void;
-}
-
-const Checkout = ({ onNavigate }: CheckoutProps) => {
+const Checkout = () => {
+  const navigate = useNavigate();
   const { cartItems, getTotalPrice, clearCart } = useCart();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     pickupTime: '',
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e: FormEvent) => {
@@ -32,18 +32,20 @@ const Checkout = ({ onNavigate }: CheckoutProps) => {
       window.open(whatsappUrl, '_blank');
       clearCart();
       setIsSubmitting(false);
-      onNavigate('Home');
+      navigate('/'); // Redirect to Home
     }, 1000);
   };
 
+  // Redirect if cart is empty
   if (cartItems.length === 0) {
-    onNavigate('Cart');
+    navigate('/cart');
     return null;
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <h1 className="text-4xl md:text-5xl font-bold mb-12 animate-fade-in-up">
           <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
             Checkout
@@ -51,89 +53,87 @@ const Checkout = ({ onNavigate }: CheckoutProps) => {
         </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          {/* Form */}
           <div className="lg:col-span-2">
             <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in-up">
               <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-amber-500/20">
+
                 <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-2">
                   <User className="w-6 h-6 text-amber-400" />
                   <span>Your Details</span>
                 </h2>
 
                 <div className="space-y-4">
+
+                  {/* Name */}
                   <div>
-                    <label htmlFor="name" className="block text-gray-300 mb-2 font-medium">
-                      Full Name *
-                    </label>
+                    <label className="block text-gray-300 mb-2 font-medium">Full Name *</label>
                     <input
                       type="text"
-                      id="name"
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-amber-500/50 transition-all duration-300"
+                      className="w-full px-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white placeholder-gray-400"
                       placeholder="John Doe"
                     />
                   </div>
 
+                  {/* Email */}
                   <div>
-                    <label htmlFor="email" className="block text-gray-300 mb-2 font-medium">
-                      Email Address *
-                    </label>
+                    <label className="block text-gray-300 mb-2 font-medium">Email Address *</label>
                     <div className="relative">
-                      <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                      <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                       <input
                         type="email"
-                        id="email"
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-amber-500/50 transition-all duration-300"
+                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white"
                         placeholder="john@example.com"
                       />
                     </div>
                   </div>
 
+                  {/* Phone */}
                   <div>
-                    <label htmlFor="phone" className="block text-gray-300 mb-2 font-medium">
-                      Phone Number *
-                    </label>
+                    <label className="block text-gray-300 mb-2 font-medium">Phone Number *</label>
                     <div className="relative">
-                      <Phone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                      <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                       <input
                         type="tel"
-                        id="phone"
                         required
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-amber-500/50 transition-all duration-300"
+                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white"
                         placeholder="+44 7700 000000"
                       />
                     </div>
                   </div>
 
+                  {/* Pickup Time */}
                   <div>
-                    <label htmlFor="pickupTime" className="block text-gray-300 mb-2 font-medium">
-                      Pickup Time *
-                    </label>
+                    <label className="block text-gray-300 mb-2 font-medium">Pickup Time *</label>
                     <div className="relative">
-                      <Clock className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                      <Clock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                       <input
                         type="time"
-                        id="pickupTime"
                         required
                         value={formData.pickupTime}
                         onChange={(e) => setFormData({ ...formData, pickupTime: e.target.value })}
-                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-amber-500/50 transition-all duration-300"
+                        className="w-full pl-12 pr-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white"
                       />
                     </div>
                   </div>
+
                 </div>
               </div>
 
+              {/* Submit */}
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold text-lg hover:from-green-600 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-green-500/50 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
               >
                 {isSubmitting ? (
                   <span>Processing...</span>
@@ -144,23 +144,25 @@ const Checkout = ({ onNavigate }: CheckoutProps) => {
                   </>
                 )}
               </button>
+
             </form>
           </div>
 
+          {/* Summary */}
           <div className="lg:col-span-1">
-            <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-amber-500/20 sticky top-24 animate-fade-in-up animation-delay-200">
+            <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-amber-500/20 sticky top-24 animate-fade-in-up">
+
               <h2 className="text-2xl font-bold text-white mb-6">Order Summary</h2>
 
               <div className="space-y-4 mb-6">
                 {cartItems.map((item) => (
                   <div key={item.id} className="flex justify-between text-gray-300 text-sm">
-                    <span>
-                      {item.quantity}x {item.name}
-                    </span>
+                    <span>{item.quantity}x {item.name}</span>
                     <span>£{(item.price * item.quantity).toFixed(2)}</span>
                   </div>
                 ))}
 
+                {/* Totals */}
                 <div className="border-t border-slate-700 pt-4 space-y-2">
                   <div className="flex justify-between text-gray-300">
                     <span>Subtotal</span>
@@ -170,6 +172,7 @@ const Checkout = ({ onNavigate }: CheckoutProps) => {
                     <span>Service Fee</span>
                     <span>£2.50</span>
                   </div>
+
                   <div className="border-t border-slate-700 pt-4">
                     <div className="flex justify-between text-white text-xl font-bold">
                       <span>Total</span>
@@ -181,12 +184,12 @@ const Checkout = ({ onNavigate }: CheckoutProps) => {
 
               <div className="bg-amber-500/10 border border-amber-500/20 rounded-xl p-4">
                 <p className="text-amber-400 text-sm">
-                  Your order will be sent via WhatsApp for confirmation. Please make sure your
-                  WhatsApp is accessible.
+                  Your order will be sent via WhatsApp for confirmation. Please make sure your WhatsApp is accessible.
                 </p>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

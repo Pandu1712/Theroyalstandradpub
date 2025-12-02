@@ -1,11 +1,9 @@
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useNavigate } from 'react-router-dom';
 
-interface CartProps {
-  onNavigate: (page: string) => void;
-}
-
-const Cart = ({ onNavigate }: CartProps) => {
+const Cart = () => {
+  const navigate = useNavigate();
   const { cartItems, removeFromCart, updateQuantity, getTotalPrice } = useCart();
 
   if (cartItems.length === 0) {
@@ -16,8 +14,10 @@ const Cart = ({ onNavigate }: CartProps) => {
             <ShoppingBag className="w-24 h-24 text-amber-400/30 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-white mb-4">Your cart is empty</h2>
             <p className="text-gray-400 mb-8">Looks like you haven't added anything yet</p>
+
+            {/* FIXED: use navigate */}
             <button
-              onClick={() => onNavigate('Menu')}
+              onClick={() => navigate('/menu')}
               className="px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl inline-flex items-center space-x-2"
             >
               <span>Explore Menu</span>
@@ -99,6 +99,7 @@ const Cart = ({ onNavigate }: CartProps) => {
             ))}
           </div>
 
+          {/* Summary */}
           <div className="lg:col-span-1">
             <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-amber-500/20 sticky top-24 animate-fade-in-up animation-delay-200">
               <h2 className="text-2xl font-bold text-white mb-6">Order Summary</h2>
@@ -115,21 +116,25 @@ const Cart = ({ onNavigate }: CartProps) => {
                 <div className="border-t border-slate-700 pt-4">
                   <div className="flex justify-between text-white text-xl font-bold">
                     <span>Total</span>
-                    <span className="text-amber-400">£{(getTotalPrice() + 2.5).toFixed(2)}</span>
+                    <span className="text-amber-400">
+                      £{(getTotalPrice() + 2.5).toFixed(2)}
+                    </span>
                   </div>
                 </div>
               </div>
 
+              {/* FIXED: use navigate */}
               <button
-                onClick={() => onNavigate('Checkout')}
+                onClick={() => navigate('/checkout')}
                 className="w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50 flex items-center justify-center space-x-2"
               >
                 <span>Proceed to Checkout</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
 
+              {/* FIXED: use navigate */}
               <button
-                onClick={() => onNavigate('Menu')}
+                onClick={() => navigate('/menu')}
                 className="w-full mt-4 py-4 bg-slate-700/50 text-white rounded-full font-semibold hover:bg-slate-700 transition-all duration-300"
               >
                 Continue Shopping
