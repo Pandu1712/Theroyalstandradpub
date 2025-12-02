@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import FloatingButtons from "./components/FloatingButtons";
 
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
@@ -17,8 +19,9 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <CartProvider>
-      <div className="min-h-screen bg-slate-900 flex flex-col">
+      <ScrollToTop />
 
+      <div className="min-h-screen bg-slate-900 flex flex-col">
         <Navbar />
 
         <div className="flex-grow">
@@ -36,6 +39,9 @@ function App() {
         </div>
 
         <Footer />
+
+        {/* Sticky WhatsApp + Down Arrow */}
+        <FloatingButtons />
       </div>
     </CartProvider>
   );
