@@ -10,7 +10,7 @@ const FloatingElements = () => {
       const Icon = icons[Math.floor(Math.random() * icons.length)];
       return {
         id: i,
-        icon: <Icon className="w-8 h-8 text-amber-400/30" />,
+        icon: <Icon className="w-8 h-8 text-[#895129]" />,
         left: `${Math.random() * 100}%`,
         delay: Math.random() * 5,
       };

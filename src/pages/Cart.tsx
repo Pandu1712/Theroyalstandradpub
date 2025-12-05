@@ -18,7 +18,7 @@ const Cart = () => {
             {/* FIXED: use navigate */}
             <button
               onClick={() => navigate('/menu')}
-              className="px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl inline-flex items-center space-x-2"
+              className="px-8 py-4 bg-[#895129] text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl inline-flex items-center space-x-2"
             >
               <span>Explore Menu</span>
               <ArrowRight className="w-5 h-5" />
@@ -33,7 +33,7 @@ const Cart = () => {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-24 pb-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold mb-12 animate-fade-in-up">
-          <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+          <span className="bg-[#895129] bg-clip-text text-transparent">
             Your Cart
           </span>
         </h1>
@@ -87,7 +87,7 @@ const Cart = () => {
                       </div>
 
                       <div className="text-right">
-                        <p className="text-amber-400 font-bold text-xl">
+                        <p className="text-[#895129] font-bold text-xl">
                           £{(item.price * item.quantity).toFixed(2)}
                         </p>
                         <p className="text-gray-500 text-sm">£{item.price.toFixed(2)} each</p>
@@ -116,7 +116,7 @@ const Cart = () => {
                 <div className="border-t border-slate-700 pt-4">
                   <div className="flex justify-between text-white text-xl font-bold">
                     <span>Total</span>
-                    <span className="text-amber-400">
+                    <span className="text-[#895129]">
                       £{(getTotalPrice() + 2.5).toFixed(2)}
                     </span>
                   </div>
@@ -126,7 +126,7 @@ const Cart = () => {
               {/* FIXED: use navigate */}
               <button
                 onClick={() => navigate('/checkout')}
-                className="w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50 flex items-center justify-center space-x-2"
+                className="w-full py-4 bg-[#895129] text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50 flex items-center justify-center space-x-2"
               >
                 <span>Proceed to Checkout</span>
                 <ArrowRight className="w-5 h-5" />

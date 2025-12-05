@@ -106,9 +106,9 @@ const Home = () => {
                   <Clock className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Opening Hours</h3>
-                <p className="text-gray-300">Mon–Thu: 12pm–11pm</p>
-                <p className="text-gray-300">Fri–Sat: 12pm–1am</p>
-                <p className="text-gray-300">Sunday: 12pm–10pm</p>
+                <p className="text-gray-300">Mon–Fri: 9:00Am – 12:00 Am</p>
+                <p className="text-gray-300">Saturday: 9:00Am - 12:00 Am</p>
+                <p className="text-gray-300">Sunday: 9:00Am - 12:00 Am</p>
               </div>
 
               {/* Location */}
@@ -121,9 +121,9 @@ const Home = () => {
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Location</h3>
-                <p className="text-gray-300">123 High Street</p>
+                <p className="text-gray-300">86 Tanner’s hill</p>
                 <p className="text-gray-300">London, UK</p>
-                <p className="text-gray-300">SW1A 1AA</p>
+                <p className="text-gray-300">SE8 4PN</p>
               </div>
 
               {/* Awards */}

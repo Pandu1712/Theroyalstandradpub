@@ -42,7 +42,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
 
           {/* Branding */}
           <div className="space-y-4">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold bg-[#895129] bg-clip-text text-transparent">
               The Royal Standard Pub
             </h2>
 
@@ -51,19 +51,42 @@ const Footer = ({ onNavigate }: FooterProps) => {
             </p>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 mt-4">
-              {[Facebook, Instagram, Twitter].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  aria-label={`social-${i}`}
-                  className="bg-slate-800/40 p-2 rounded-full hover:bg-slate-700/50 
-                    border border-amber-500/20 hover:border-amber-500/40 transition-all cursor-pointer inline-flex"
-                >
-                  <Icon className="w-5 h-5 text-amber-400" />
-                </a>
-              ))}
-            </div>
+           {/* Social Icons */}
+<div className="flex space-x-4 mt-4">
+  <a
+    href="https://www.facebook.com/share/16TQ2VHUpZ/?mibextid=wwXIfr"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="facebook"
+    className="bg-slate-800/40 p-2 rounded-full hover:bg-slate-700/50 
+      border border-[#895129] hover:border-amber-500/40 transition-all cursor-pointer inline-flex"
+  >
+    <Facebook className="w-5 h-5 text-[#895129]" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/theroyalstandardpub_?igsh=MXNsMnBlbXlraG50ZA%3D%3D&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="instagram"
+    className="bg-slate-800/40 p-2 rounded-full hover:bg-slate-700/50 
+      border border-amber-500/20 hover:border-amber-500/40 transition-all cursor-pointer inline-flex"
+  >
+    <Instagram className="w-5 h-5 text-[#895129]" />
+  </a>
+
+  <a
+    href="https://twitter.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="twitter"
+    className="bg-slate-800/40 p-2 rounded-full hover:bg-slate-700/50 
+      border border-amber-500/20 hover:border-amber-500/40 transition-all cursor-pointer inline-flex"
+  >
+    <Twitter className="w-5 h-5 text-[#895129]" />
+  </a>
+</div>
+
           </div>
 
           {/* Quick Links */}
@@ -76,7 +99,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
                   <a
                     href={item.href}
                     onClick={(e) => handleClick(e, item.page)}
-                    className="hover:text-amber-400 transition-colors cursor-pointer block"
+                    className="hover:text-[#895129] transition-colors cursor-pointer block"
                   >
                     {item.label}
                   </a>
@@ -91,22 +114,24 @@ const Footer = ({ onNavigate }: FooterProps) => {
 
             <ul className="space-y-4 text-gray-400 text-sm">
               <li className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span>123 London Street, UK 90210</span>
+                <MapPin className="w-5 h-5 text-[#895129] flex-shrink-0" />
+                <span>86 Tanner’s hill, London, SE8 4PN</span>
               </li>
 
               <li className="flex items-start space-x-3">
-                <Phone className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span>+44 123 456 789</span>
+                <Phone className="w-5 h-5 text-[#895129] flex-shrink-0" />
+                <span>+44 738 745 846 3</span>
               </li>
 
               <li className="flex items-start space-x-3">
-                <Mail className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-[#895129] flex-shrink-0" />
                 <a
-                  href="mailto:support@royalstandardpub.com"
-                  className="ml-1 hover:text-amber-400 transition-colors"
+                  href="mailto:theroyalarpr@gmail.com
+"
+                  className="ml-1 hover:text-[#895129] transition-colors"
                 >
-                  support@royalstandardpub.com
+                 theroyalarpr@gmail.com
+
                 </a>
               </li>
             </ul>
@@ -140,7 +165,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
 
               <button
                 type="submit"
-                className="w-full mt-4 py-3 bg-gradient-to-r from-amber-500 to-amber-600
+                className="w-full mt-4 py-3 bg-[#895129]
                   rounded-full text-white font-semibold shadow-lg shadow-amber-500/30
                   transition-all hover:scale-105"
               >

@@ -57,7 +57,7 @@ const Services = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in-up">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+              <span className="bg-[#895129] bg-clip-text text-transparent">
                 Our Services
               </span>
             </h1>
@@ -74,11 +74,11 @@ const Services = () => {
                 className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-amber-500/20 hover:border-amber-500/50 transform hover:-translate-y-2 transition-all duration-500 animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="bg-gradient-to-br from-amber-500 to-amber-600 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 text-white group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                <div className="bg-[#895129] w-20 h-20 rounded-2xl flex items-center justify-center mb-6 text-white group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                   {service.icon}
                 </div>
 
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-amber-400 transition-colors duration-300">
+                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#895129] transition-colors duration-300">
                   {service.title}
                 </h3>
 
@@ -87,7 +87,7 @@ const Services = () => {
                 <ul className="space-y-3">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center space-x-3 text-gray-300">
-                      <div className="w-1.5 h-1.5 bg-amber-400 rounded-full" />
+                      <div className="w-1.5 h-1.5 bg-[#895129] rounded-full" />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -107,7 +107,7 @@ const Services = () => {
 
             <button
               onClick={() => navigate('/contact')}
-              className="px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50"
+              className="px-8 py-4 bg-[#895129] text-white rounded-full font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-amber-500/50"
             >
               Get in Touch
             </button>

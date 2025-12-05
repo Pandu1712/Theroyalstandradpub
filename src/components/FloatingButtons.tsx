@@ -6,7 +6,7 @@ const FloatingButtons = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/447700000000"
+        href="https://wa.me/447438375330"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-green-500 shadow-xl flex items-center justify-center hover:scale-110 transition-all"
@@ -17,7 +17,7 @@ const FloatingButtons = () => {
       {/* Down Arrow Button */}
       <button
         onClick={() => window.scrollTo({ top:0, behavior: "smooth" })}
-        className="w-14 h-14 rounded-full bg-amber-500 shadow-xl flex items-center justify-center hover:scale-110 transition-all"
+        className="w-14 h-14 rounded-full bg-[#895129] shadow-xl flex items-center justify-center hover:scale-110 transition-all"
       >
         <ArrowUp className="w-7 h-7 text-white" />
       </button>

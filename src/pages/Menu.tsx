@@ -6,6 +6,7 @@ import { menuItems, categories } from '../data/menuData';
 const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(9); // NEW
 
   const navigate = useNavigate();
 
@@ -28,7 +29,7 @@ const Menu = () => {
           {/* Title */}
           <div className="text-center mb-12 animate-fade-in-up">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+              <span className="bg-[#895129] bg-clip-text text-transparent">
                 Our Menu
               </span>
             </h1>
@@ -38,33 +39,45 @@ const Menu = () => {
           </div>
 
           {/* Search + Filter */}
-          <div className="mb-8 flex flex-col md:flex-row gap-4 items-center justify-between">
-            <div className="relative w-full md:w-96">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
-              <input
-                type="text"
-                placeholder="Search menu..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 bg-slate-800/50 backdrop-blur-sm border border-amber-500/20 rounded-full text-white placeholder-gray-400 focus:outline-none focus:border-amber-500/50 transition-all duration-300"
-              />
-            </div>
+          <div className="relative w-full md:w-96">
 
-            <div className="flex items-center space-x-2">
-              <Filter className="text-amber-400 w-5 h-5" />
-              <span className="text-gray-400 text-sm">Filter by:</span>
-            </div>
-          </div>
+  <div
+    className="absolute left-3 top-1/2 -translate-y-1/2
+               bg-slate-900 p-2 rounded-full
+               border border-amber-500/30 shadow-md"
+  >
+    <Search className="text-white w-5 h-5" />
+  </div>
+
+  <input
+    type="text"
+    placeholder="Search menu..."
+    value={searchQuery}
+    onChange={(e) => {
+      setSearchQuery(e.target.value);
+      setVisibleCount(9);
+    }}
+    className="w-full pl-14 pr-4 py-3 
+               bg-slate-800/70 border border-amber-500/20 rounded-full
+               text-white placeholder-gray-400 
+               focus:outline-none focus:border-amber-500/50
+               transition-all duration-300"
+  />
+</div>
+
 
           {/* Category Filters */}
-          <div className="flex flex-wrap gap-3 mb-12 justify-center">
+          <div className="mt-5 flex flex-wrap gap-3 mb-12 justify-center">
             {categories.map((category) => (
               <button
                 key={category}
-                onClick={() => setSelectedCategory(category)}
+                onClick={() => {
+                  setSelectedCategory(category);
+                  setVisibleCount(9); // RESET LIST
+                }}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 ${
                   selectedCategory === category
-                    ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-lg shadow-amber-500/50'
+                    ? 'bg-[#895129] text-white shadow-lg shadow-amber-500/50'
                     : 'bg-slate-800/50 text-gray-300 hover:bg-slate-700/50 border border-amber-500/20'
                 }`}
               >
@@ -75,12 +88,12 @@ const Menu = () => {
 
           {/* Menu Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredItems.map((item, index) => (
+            {filteredItems.slice(0, visibleCount).map((item, index) => (
               <div
                 key={item.id}
                 className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-amber-500/20 hover:border-amber-500/50 transform hover:-translate-y-2 transition-all duration-500 cursor-pointer animate-fade-in-up"
                 style={{ animationDelay: `${index * 50}ms` }}
-                onClick={() => navigate(`/product/${item.id}`)} // ← FIXED NAVIGATION
+                onClick={() => navigate(`/product/${item.id}`)}
               >
                 <div className="relative h-56 overflow-hidden">
                   <img
@@ -90,7 +103,7 @@ const Menu = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60" />
                   {item.isPopular && (
-                    <div className="absolute top-4 right-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
+                    <div className="absolute top-4 right-4 bg-[#895129] text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
                       Popular
                     </div>
                   )}
@@ -98,10 +111,10 @@ const Menu = () => {
 
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-3">
-                    <h3 className="text-xl font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-white group-hover:text-[#895129] transition-colors duration-300">
                       {item.name}
                     </h3>
-                    <span className="text-amber-400 font-bold text-lg">
+                    <span className="text-[#895129] font-bold text-lg">
                       £{item.price.toFixed(2)}
                     </span>
                   </div>
@@ -126,6 +139,19 @@ const Menu = () => {
             ))}
           </div>
 
+          {/* View More Button */}
+          {filteredItems.length > visibleCount && (
+            <div className="text-center mt-10">
+              <button
+                onClick={() => setVisibleCount((prev) => prev + 9)}
+                className="px-8 py-3 bg-[#895129] text-white rounded-full font-semibold shadow-lg hover:scale-105 transition-all duration-300"
+              >
+                View More
+              </button>
+            </div>
+          )}
+
+          {/* No Results */}
           {filteredItems.length === 0 && (
             <div className="text-center py-20">
               <p className="text-gray-400 text-xl">

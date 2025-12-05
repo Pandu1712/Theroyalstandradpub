@@ -39,7 +39,7 @@ const ProductDetail = () => {
         {/* FIXED: use navigate() */}
         <button
           onClick={() => navigate('/menu')}
-          className="flex items-center space-x-2 text-amber-400 hover:text-amber-300 transition-colors duration-300 mb-8 group"
+          className="flex items-center space-x-2 text-[#895129] hover:text-[#895129] transition-colors duration-300 mb-8 group"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
           <span>Back to Menu</span>
@@ -49,14 +49,14 @@ const ProductDetail = () => {
 
           {/* Image Section */}
           <div className="relative group animate-fade-in-up">
-            <div className="absolute -inset-1 bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+            <div className="absolute -inset-1 bg-[#895129] rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
             <img
               src={item.image}
               alt={item.name}
               className="relative w-full h-96 lg:h-[600px] object-cover rounded-2xl shadow-2xl"
             />
             {item.isPopular && (
-              <div className="absolute top-6 right-6 bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-2 rounded-full font-semibold shadow-lg flex items-center space-x-2">
+              <div className="absolute top-6 right-6 bg-[#895129] text-white px-4 py-2 rounded-full font-semibold shadow-lg flex items-center space-x-2">
                 <Star className="w-4 h-4 fill-current" />
                 <span>Popular</span>
               </div>
@@ -67,7 +67,7 @@ const ProductDetail = () => {
           <div className="space-y-6 animate-fade-in-up animation-delay-200">
 
             <div>
-              <span className="inline-block bg-amber-500/10 text-amber-400 px-4 py-1 rounded-full text-sm font-medium border border-amber-500/20 mb-4">
+              <span className="inline-block bg-[#895129] text-white px-4 py-1 rounded-full text-sm font-medium border border-amber-500/20 mb-4">
                 {item.category}
               </span>
 
@@ -75,7 +75,7 @@ const ProductDetail = () => {
 
               <div className="flex items-center space-x-2 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-amber-400 fill-current" />
+                  <Star key={i} className="w-5 h-5 text-[#895129] fill-current" />
                 ))}
                 <span className="text-gray-400 ml-2">(4.8 rating)</span>
               </div>
@@ -90,7 +90,7 @@ const ProductDetail = () => {
                 <ul className="grid grid-cols-2 gap-2">
                   {item.ingredients.map((ingredient, index) => (
                     <li key={index} className="text-gray-300 flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 bg-amber-400 rounded-full" />
+                      <span className="w-1.5 h-1.5 bg-[#895129] rounded-full" />
                       <span>{ingredient}</span>
                     </li>
                   ))}
@@ -103,7 +103,7 @@ const ProductDetail = () => {
 
               <div className="flex items-center justify-between mb-6">
                 <span className="text-gray-400 text-lg">Price</span>
-                <span className="text-4xl font-bold text-amber-400">£{item.price.toFixed(2)}</span>
+                <span className="text-4xl font-bold text-[#895129]">£{item.price.toFixed(2)}</span>
               </div>
 
               {/* Quantity */}
@@ -132,7 +132,7 @@ const ProductDetail = () => {
               {/* Total */}
               <div className="flex items-center justify-between mb-6 pt-4 border-t border-slate-700">
                 <span className="text-gray-400 text-lg">Total</span>
-                <span className="text-3xl font-bold text-amber-400">
+                <span className="text-3xl font-bold text-[#895129]">
                   £{(item.price * quantity).toFixed(2)}
                 </span>
               </div>
@@ -140,7 +140,7 @@ const ProductDetail = () => {
               {/* Add to cart button */}
               <button
                 onClick={handleAddToCart}
-                className="w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-xl flex items-center justify-center space-x-2"
+                className="w-full py-4 bg-[#895129] text-white rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-xl flex items-center justify-center space-x-2"
               >
                 <ShoppingCart className="w-5 h-5" />
                 <span>Add to Cart</span>

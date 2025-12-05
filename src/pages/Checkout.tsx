@@ -24,9 +24,9 @@ const Checkout = () => {
       .map((item) => `${item.quantity}x ${item.name} - £${(item.price * item.quantity).toFixed(2)}`)
       .join('%0A');
 
-    const message = `*New Order from The Royal Pint*%0A%0A*Customer Details:*%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APickup Time: ${formData.pickupTime}%0A%0A*Order Items:*%0A${orderDetails}%0A%0A*Total: £${(getTotalPrice() + 2.5).toFixed(2)}*`;
+    const message = `*New Order from The Royal Standrad Pub*%0A%0A*Customer Details:*%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APickup Time: ${formData.pickupTime}%0A%0A*Order Items:*%0A${orderDetails}%0A%0A*Total: £${(getTotalPrice() + 2.5).toFixed(2)}*`;
 
-    const whatsappUrl = `https://wa.me/447700000000?text=${message}`;
+    const whatsappUrl = `https://wa.me/447438375330?text=${message}`;
 
     setTimeout(() => {
       window.open(whatsappUrl, '_blank');
@@ -47,7 +47,7 @@ const Checkout = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <h1 className="text-4xl md:text-5xl font-bold mb-12 animate-fade-in-up">
-          <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+          <span className="bg-[#895129] bg-clip-text text-transparent">
             Checkout
           </span>
         </h1>
@@ -60,7 +60,7 @@ const Checkout = () => {
               <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-amber-500/20">
 
                 <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-2">
-                  <User className="w-6 h-6 text-amber-400" />
+                  <User className="w-6 h-6 text-[#895129]" />
                   <span>Your Details</span>
                 </h2>
 
@@ -182,8 +182,8 @@ const Checkout = () => {
                 </div>
               </div>
 
-              <div className="bg-amber-500/10 border border-amber-500/20 rounded-xl p-4">
-                <p className="text-amber-400 text-sm">
+              <div className="bg-a[#895129] border border-amber-500/20 rounded-xl p-4">
+                <p className="text-[#895129] text-sm">
                   Your order will be sent via WhatsApp for confirmation. Please make sure your WhatsApp is accessible.
                 </p>
               </div>
