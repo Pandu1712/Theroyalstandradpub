@@ -32,11 +32,11 @@ const Home = () => {
 
           <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up">
-              <span className="bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 bg-clip-text text-transparent">
+              <span className="bg-[#895129] bg-clip-text text-transparent">
                 Welcome to
               </span>
               <br />
-              <span className="text-white">The Royal Pint</span>
+              <span className="text-white">The Royal Standrad Pub</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
@@ -48,7 +48,7 @@ const Home = () => {
               {/* Navigate using React Router */}
               <button
                 onClick={() => navigate('/menu')}
-                className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full font-semibold text-lg hover:scale-105 transition duration-300 shadow-xl flex items-center space-x-2"
+                className="group px-8 py-4 bg-[#895129] text-white rounded-full font-semibold text-lg hover:scale-105 transition duration-300 shadow-xl flex items-center space-x-2"
               >
                 <span>Explore Menu</span>
                 <ArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
@@ -100,7 +100,7 @@ const Home = () => {
               <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 
                 hover:bg-slate-700/50 hover:-translate-y-2 transition duration-500 
                 border border-amber-500/20 hover:border-amber-500/50">
-                <div className="bg-gradient-to-br from-amber-500 to-amber-600 w-16 h-16 
+                <div className="bg-[#895129] w-16 h-16 
                   rounded-full flex items-center justify-center mb-6 group-hover:scale-110 
                   transition-transform duration-300">
                   <Clock className="w-8 h-8 text-white" />
@@ -115,7 +115,7 @@ const Home = () => {
               <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 
                 hover:bg-slate-700/50 hover:-translate-y-2 transition duration-500 
                 border border-amber-500/20 hover:border-amber-500/50">
-                <div className="bg-gradient-to-br from-amber-500 to-amber-600 w-16 h-16 
+                <div className="bg-[#895129] w-16 h-16 
                   rounded-full flex items-center justify-center mb-6 group-hover:scale-110 
                   transition-transform duration-300">
                   <MapPin className="w-8 h-8 text-white" />
@@ -130,7 +130,7 @@ const Home = () => {
               <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 
                 hover:bg-slate-700/50 hover:-translate-y-2 transition duration-500 
                 border border-amber-500/20 hover:border-amber-500/50">
-                <div className="bg-gradient-to-br from-amber-500 to-amber-600 w-16 h-16 
+                <div className="bg-[#895129] w-16 h-16 
                   rounded-full flex items-center justify-center mb-6 group-hover:scale-110 
                   transition-transform duration-300">
                   <Star className="w-8 h-8 text-white" />

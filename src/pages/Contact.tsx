@@ -187,7 +187,7 @@ Message: ${formData.message}`;
                       value={formData.phone}
                       onChange={handlePhoneChange}
                       className="w-full px-4 py-3 bg-slate-700/50 border border-amber-500/20 rounded-lg text-white"
-                      placeholder="Only numbers allowed"
+                      placeholder="+44 7700 000000"
                     />
 
                     {phoneError && (
