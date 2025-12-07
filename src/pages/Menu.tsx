@@ -10,7 +10,7 @@ const Menu = () => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>("All");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [visibleCount, setVisibleCount] = useState<number>(12);
-  const [showFilters, setShowFilters] = useState<boolean>(false); // MOBILE SIDEBAR
+  const [showFilters, setShowFilters] = useState<boolean>(false);
 
   const navigate = useNavigate();
   const { addToCart } = useCart();
@@ -39,7 +39,6 @@ const Menu = () => {
     setTimeout(() => note.remove(), 3000);
   };
 
-  // FILTERING LOGIC
   const filteredItems = menuItems.filter((item) => {
     const matchesCategory =
       selectedCategory === "All" || item.category === selectedCategory;
@@ -60,6 +59,22 @@ const Menu = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 pt-24 pb-16">
+      <style>
+        {`
+          .tag-animate {
+            animation: fadeSlide 0.4s ease forwards;
+            opacity: 0;
+            transform: translateY(-8px);
+          }
+          @keyframes fadeSlide {
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        `}
+      </style>
+
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TOP CATEGORY BAR */}
@@ -95,7 +110,7 @@ const Menu = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
-          {/* LEFT SIDEBAR (HIDDEN ON MOBILE UNTIL TOGGLED) */}
+          {/* SIDEBAR */}
           <aside
             className={`
               bg-slate-800/50 p-6 rounded-xl border border-amber-500/20 h-fit md:sticky md:top-24
@@ -103,7 +118,6 @@ const Menu = () => {
               ${showFilters ? "block fixed top-0 left-0 h-full w-64 p-8 md:w-auto bg-slate-900 shadow-xl" : "hidden md:block"}
             `}
           >
-            {/* CLOSE BUTTON ON MOBILE */}
             {showFilters && (
               <button
                 onClick={() => setShowFilters(false)}
@@ -120,7 +134,10 @@ const Menu = () => {
 
                 <div className="flex flex-col gap-2">
                   <button
-                    onClick={() => setSelectedSubcategory("All")}
+                    onClick={() => {
+                      setSelectedSubcategory("All");
+                      setShowFilters(false);
+                    }}
                     className={`px-4 py-2 rounded-lg ${
                       selectedSubcategory === "All"
                         ? "bg-amber-600 text-white"
@@ -133,7 +150,10 @@ const Menu = () => {
                   {subcategories.map((sub: string) => (
                     <button
                       key={sub}
-                      onClick={() => setSelectedSubcategory(sub)}
+                      onClick={() => {
+                        setSelectedSubcategory(sub);
+                        setShowFilters(false);
+                      }}
                       className={`px-4 py-2 rounded-lg ${
                         selectedSubcategory === sub
                           ? "bg-amber-600 text-white"
@@ -148,10 +168,10 @@ const Menu = () => {
             )}
           </aside>
 
-          {/* RIGHT MAIN CONTENT */}
+          {/* MAIN SECTION */}
           <main className="md:col-span-3">
 
-            {/* SEARCH BOX */}
+            {/* SEARCH */}
             <div className="relative mb-8 max-w-lg">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-white" />
 
@@ -163,7 +183,7 @@ const Menu = () => {
               />
             </div>
 
-            {/* GRID OF ITEMS */}
+            {/* ITEMS GRID */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredItems.slice(0, visibleCount).map((item: MenuItem) => {
                 const quantity = quantities[item.id] || 1;
@@ -173,23 +193,26 @@ const Menu = () => {
                     key={item.id}
                     className="bg-slate-800/40 rounded-2xl border border-amber-500/20 p-5 hover:-translate-y-2 transition-all"
                   >
-                    {/* IMAGE */}
+                    {/* IMAGE + TAG */}
                     <div
-                      className="h-48 overflow-hidden rounded-lg cursor-pointer"
+                      className="relative h-48 overflow-hidden rounded-lg cursor-pointer"
                       onClick={() => navigate(`/product/${item.id}`)}
                     >
+                      <span
+                        className="absolute top-2 left-2 bg-[#895129] text-white text-xs font-semibold px-3 py-1 rounded-full shadow-md z-10 tag-animate"
+                      >
+                        {item.subcategory || item.category}
+                      </span>
+
                       <img
                         src={item.image}
                         className="w-full h-full object-contain"
                       />
                     </div>
 
-                    {/* NAME */}
+                    {/* TEXT CONTENT */}
                     <h3 className="mt-4 text-white font-bold">{item.name}</h3>
-
-                    <p className="text-gray-400 text-sm mb-2">
-                      {item.description}
-                    </p>
+                    <p className="text-gray-400 text-sm mb-2">{item.description}</p>
 
                     <span className="text-[#895129] font-bold block mb-4">
                       £{item.price.toFixed(2)}
