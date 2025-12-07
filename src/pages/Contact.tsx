@@ -119,9 +119,14 @@ Message: ${formData.message}`;
                     </div>
                     <div>
                       <h3 className="text-white font-semibold mb-1">Opening Hours</h3>
-                      <p className="text-gray-400">Mon–Fri: 9:00 AM – 12:00 AM</p>
-                      <p className="text-gray-400">Saturday: 9:00 AM – 12:00 AM</p>
-                      <p className="text-gray-400">Sunday: 9:00 AM – 12:00 AM</p>
+                     <p className="text-gray-400">Monday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Tuesday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Wednesday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Thursday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Friday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Saturday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Sunday: 12:00 PM – 11:00 AM</p>
+
                     </div>
                   </div>
                 </div>

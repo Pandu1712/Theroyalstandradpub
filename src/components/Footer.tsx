@@ -139,39 +139,16 @@ const Footer = ({ onNavigate }: FooterProps) => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-4">Stay Updated</h3>
+            <h3 className="text-white font-semibold text-lg mb-4">Pub Timings</h3>
 
-            <p className="text-gray-400 text-sm mb-4">
-              Subscribe to receive updates, offers, and exclusive deals.
-            </p>
+            <p className="text-gray-400">Monday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Tuesday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Wednesday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Thursday: 12:00 PM – 11:00 PM</p>
+<p className="text-gray-400">Friday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Saturday: 12:00 PM – 2:00 AM</p>
+<p className="text-gray-400">Sunday: 12:00 PM – 11:00 AM</p>
 
-            <form
-              onSubmit={(e) => {
-                // Keep default prevented if SPA navigation; otherwise, allow.
-                e.preventDefault();
-                // You can wire up your subscribe logic here.
-                // Currently this is a no-op so you can add your API call later.
-              }}
-            >
-              <div className="flex items-center bg-slate-800/50 border border-amber-500/20 rounded-full px-4 py-2 backdrop-blur-sm">
-                <Mail className="text-gray-400 w-5 h-5" />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  className="bg-transparent text-white placeholder-gray-500 flex-1 ml-3 focus:outline-none"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full mt-4 py-3 bg-[#895129]
-                  rounded-full text-white font-semibold shadow-lg shadow-amber-500/30
-                  transition-all hover:scale-105"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
 
         </div>
