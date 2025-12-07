@@ -3641,12 +3641,12 @@ export const menuItems: MenuItem[] = [
     subcategory: "Vegan Indian Cuisine",
     image: "/ai/vegan-vibes/indian/wada-pav.jpg",
   },
-];
+
 
 // -------------------------------
 // VEGAN DESSERTS
 // -------------------------------
-export const veganDesserts = [
+
   {
     id: "VV-DE-1",
     name: "Vegan Biscoff Cheesecake",
@@ -3693,12 +3693,12 @@ export const veganDesserts = [
     subcategory: "Vegan Desserts",
     image: "/ai/vegan-vibes/desserts/jaffa-cake.jpg",
   },
-];
+
 
 // -------------------------------
 // VEGAN MILKSHAKES
 // -------------------------------
-export const veganMilkshakes = [
+
   {
     id: "VV-MS-1",
     name: "Vegan Chocolate Shake",
@@ -3744,12 +3744,6 @@ export const veganMilkshakes = [
     subcategory: "Vegan MilkShakes",
     image: "/ai/vegan-vibes/milkshakes/salted-caramel.jpg",
   },
-];
-
-// -------------------------------
-// DRINKS
-// -------------------------------
-export const veganDrinks = [
   { id: "VV-DR-1", name: "Green's Sour Cherry", description: "Refreshing cherry soda.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/sour-cherry.jpg" },
   { id: "VV-DR-2", name: "Coke", description: "Classic Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/coke.jpg" },
   { id: "VV-DR-3", name: "Coke Zero", description: "Zero sugar Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/coke-zero.jpg" },
@@ -3764,12 +3758,6 @@ export const veganDrinks = [
   { id: "VV-DR-12", name: "Redbull", description: "Energy drink.", price: 4.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/redbull.jpg" },
   { id: "VV-DR-13", name: "Still Water", description: "Pure still water.", price: 2.00, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/still-water.jpg" },
   { id: "VV-DR-14", name: "Karma Cola Can", description: "Natural cola drink.", price: 2.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/karma-cola.jpg" },
-];
-
-// -------------------------------
-// ALCOHOL
-// -------------------------------
-export const veganAlcohol = [
   {
     id: "VV-AL-1",
     name: "Asahi",
@@ -3788,8 +3776,7 @@ export const veganAlcohol = [
     subcategory: "Alcohol",
     image: "/ai/vegan-vibes/alcohol/asahi-zero.jpg",
   },
-  
-  ,{
+  {
     "id": "BG1",
     "name": "BYO Curry Meal Deal",
     "description": "Build your own curry meal deal! Choose from a Thai Red Curry or Massaman Curry base, select your protein: chicken, prawns, tofu, seafood, mussels, soya bites, MOCK® Vegan Chicken, or vegan prawns. Served with your choice of jasmine rice, coconut rice, or egg fried rice (with or without chilli). A fully customizable, flavour-packed meal.",
@@ -5773,7 +5760,7 @@ export const categoryTree: CategoryTreeType = {
   "WTF": ["Vegan Beef Burgers", "Vegan Chicken Burgers", "Loaded Sides", "Sides", "Dips", "Drinks"],
   "Kuro Smash": ["Umami Smash Burgers", "Fried Chicken Burgers","Kuro Wings,Tenders & Bites", "Sides", "Dips", "Drinks"],
   "Koreatown": ["Korean Rice Bowles","Korean Chicken Burger","KFC-Korean Fried Chicken","Sides","Dips","Drinks"],
-  "Winning Wings": ["Winning Wings", "Chicken Buns","Chicken Tender","Chicken Bites","", "Sides", "Sauces", "Drinks"],
+  "Winning Wings": ["Winning Wings", "Chicken Buns","Chicken Tender","Chicken Bites", "Sides", "Sauces", "Drinks"],
   "Wings Of Nature": ["Meal Deals","Tenders","Bites","DrumSticks","Vegan Chicken Buns","Sides","Dips","Drinks","Alcohol","Milkshakes","Desserts"],
   "Vegan Vibes": ["Vegan Oriental Cuisine","Vegan American Cuisine","Vegan Caribbean Cuisine","Meal Deals","Vegan Mexican Cuisine","Vegan Indian Cuisine","Vegan Desserts","Vegan MilkShakes","Drinks","Alcohol"],
   "Bamboo Garden": ["Meal Deals","Oriental Starters","Mains","KidsMenu","Sides","Desserts","Vegan MilkShakes","Soft Drinks","Alcohol","Non Vegan Milkshakes"],
