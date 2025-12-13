@@ -10,7 +10,7 @@ export const menuItems: MenuItem[] = [
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
     image:
-      "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266844/image_74_aweusg.jpg",
     isPopular: true
   },
   {
@@ -21,7 +21,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266846/image_76_e4bxd8.jpg",
     // You may add: offer: "Buy 1 get 1 free"
   },
   {
@@ -33,7 +33,7 @@ export const menuItems: MenuItem[] = [
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
     image:
-      "https://images.pexels.com/photos/4109231/pexels-photo-4109231.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266844/image_73_rnppaa.jpg"
   },
   {
     id: "TL4",
@@ -43,7 +43,7 @@ export const menuItems: MenuItem[] = [
     price: 9.45,
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266840/image_57_fqgesk.jpg"
   },
   {
     id: "TL5",
@@ -53,7 +53,7 @@ export const menuItems: MenuItem[] = [
     price: 9.45,
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266840/image_56_uqfero.jpg"
   },
   {
     id: "TL6",
@@ -63,7 +63,7 @@ export const menuItems: MenuItem[] = [
     price: 5.95,
     category: "Twisted London",
     subcategory: "Smashed Patty Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266841/image_38_jpkkzb.jpg"
   },
 
   // --- TRIPLE Stack Beef Burgers ---
@@ -75,7 +75,7 @@ export const menuItems: MenuItem[] = [
     price: 12.95,
     category: "Twisted London",
     subcategory: "TRIPLE Stack Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266838/image_32_pvcyqh.jpg"
   },
   {
     id: "TL8",
@@ -85,7 +85,7 @@ export const menuItems: MenuItem[] = [
     price: 12.95,
     category: "Twisted London",
     subcategory: "TRIPLE Stack Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266837/image_53_e8ggoq.jpg"
   },
 
   // --- Anything But Beef Burgers ---
@@ -97,7 +97,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Twisted London",
     subcategory: "Anything But Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266845/image_77_nm5ty8.jpg"
   },
   {
     id: "TL10",
@@ -107,7 +107,7 @@ export const menuItems: MenuItem[] = [
     price: 8.45,
     category: "Twisted London",
     subcategory: "Anything But Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266840/image_58_ubbgrw.jpg"
   },
   {
     id: "TL11",
@@ -117,7 +117,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Twisted London",
     subcategory: "Anything But Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266840/image_55_suorke.jpg"
   },
 
   // --- Chicken Wings, Tenders & Bites ---
@@ -129,7 +129,7 @@ export const menuItems: MenuItem[] = [
     price: 7.45,
     category: "Twisted London",
     subcategory: "Chicken Wings, Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266833/image_48_kanhbw.jpg"
   },
   {
     id: "TL13",
@@ -139,7 +139,7 @@ export const menuItems: MenuItem[] = [
     price: 8.45,
     category: "Twisted London",
     subcategory: "Chicken Wings, Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266844/image_69_hnchu8.jpg"
   },
   {
     id: "TL14",
@@ -149,7 +149,7 @@ export const menuItems: MenuItem[] = [
     price: 5.95,
     category: "Twisted London",
     subcategory: "Chicken Wings, Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266833/image_50_ejzxwc.jpg"
   },
   {
     id: "TL15",
@@ -159,7 +159,7 @@ export const menuItems: MenuItem[] = [
     price: 7.45,
     category: "Twisted London",
     subcategory: "Chicken Wings, Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266823/image_16_oczqjh.jpg"
   },
   {
     id: "TL16",
@@ -169,7 +169,7 @@ export const menuItems: MenuItem[] = [
     price: 7.45,
     category: "Twisted London",
     subcategory: "Chicken Wings, Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266837/image_52_z0xqos.jpg"
   },
 
   // --- Sides ---
@@ -180,7 +180,7 @@ export const menuItems: MenuItem[] = [
     price: 2.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266838/image_27_ozjvfm.jpg"
   },
   {
     id: "TL18",
@@ -189,7 +189,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266842/image_63_rcsib5.jpg"
   },
   {
     id: "TL19",
@@ -199,7 +199,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266843/image_68_mhnt1q.jpg"
   },
   {
     id: "TL20",
@@ -208,7 +208,7 @@ export const menuItems: MenuItem[] = [
     price: 3.45,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266847/image_80_xdkbpz.jpg"
   },
   {
     id: "TL21",
@@ -218,7 +218,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266842/image_59_vztpi4.jpg",
     isPopular: true
   },
   {
@@ -229,7 +229,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266846/image_78_oepcaf.jpg"
   },
   {
     id: "TL23",
@@ -239,7 +239,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Twisted London",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266842/image_59_vztpi4.jpg"
   },
 
   // --- Dips ---
@@ -250,7 +250,7 @@ export const menuItems: MenuItem[] = [
     price: 1.45,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266834/image_49_p6mvov.jpg"
   },
   {
     id: "TL25",
@@ -259,7 +259,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266841/image_62_nrdi7a.jpg"
   },
   {
     id: "TL26",
@@ -277,7 +277,7 @@ export const menuItems: MenuItem[] = [
     price: 1.45,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266827/image_47_chpm0q.jpg"
   },
   {
     id: "TL28",
@@ -286,7 +286,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266834/image_49_p6mvov.jpg"
   },
   {
     id: "TL29",
@@ -295,7 +295,7 @@ export const menuItems: MenuItem[] = [
     price: 1.45,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266834/image_49_p6mvov.jpg"
   },
   {
     id: "TL30",
@@ -304,7 +304,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "Twisted London",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266847/image_82_gm7geh.jpg"
   },
 
   // --- Drinks ---
@@ -315,7 +315,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Twisted London",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266838/image_54_ic6pds.jpg"
   },
   {
     id: "TL32",
@@ -324,7 +324,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Twisted London",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266841/image_60_obkr7s.jpg"
   },
   {
     id: "TL33",
@@ -333,7 +333,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Twisted London",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266824/image_44_w4q1ti.jpg"
   },
   {
     id: "TL34",
@@ -342,7 +342,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Twisted London",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266846/image_79_ll7bhz.jpg"
   },
   {
     id: "TL35",
@@ -351,7 +351,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Twisted London",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765266825/image_45_p5ve9g.jpg"
   },
   {
     id: "WTF1",
@@ -361,7 +361,7 @@ export const menuItems: MenuItem[] = [
     price: 10.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268528/image_17_mq54th.jpg",
     isPopular: true
   },
   {
@@ -372,7 +372,7 @@ export const menuItems: MenuItem[] = [
     price: 10.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268587/image_48_m6ruqq.jpg",
    
   },
   {
@@ -383,7 +383,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268626/image_63_aluqvz.jpg",
     
   },
   {
@@ -394,7 +394,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268524/image_15_rngjuo.jpg",
    
   },
   {
@@ -405,7 +405,7 @@ export const menuItems: MenuItem[] = [
     price: 13.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268581/image_45_xf6oxo.jpg"
   },
   {
     id: "WTF6",
@@ -415,7 +415,7 @@ export const menuItems: MenuItem[] = [
     price: 13.95,
     category: "WTF",
     subcategory: "Vegan Beef Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268573/image_41_endaxb.jpg"
   },
 
   // -----------------------------------------
@@ -429,7 +429,7 @@ export const menuItems: MenuItem[] = [
     price: 10.95,
     category: "WTF",
     subcategory: "Vegan Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268536/image_21_aqomsc.jpg"
   },
   {
     id: "WTF8",
@@ -439,7 +439,7 @@ export const menuItems: MenuItem[] = [
     price: 10.95,
     category: "WTF",
     subcategory: "Vegan Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268528/image_16_mn7qvf.jpg"
   },
   {
     id: "WTF9",
@@ -449,7 +449,7 @@ export const menuItems: MenuItem[] = [
     price: 12.95,
     category: "WTF",
     subcategory: "Vegan Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268589/image_49_xaacym.jpg"
   },
 
   // -----------------------------------------
@@ -463,7 +463,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "WTF",
     subcategory: "Loaded Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268548/image_27_ksicla.jpg",
     isPopular: true
   },
   {
@@ -474,7 +474,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "WTF",
     subcategory: "Loaded Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268593/image_52_qf3ohv.jpg"
   },
   {
     id: "WTF12",
@@ -484,7 +484,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "WTF",
     subcategory: "Loaded Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268593/image_51_sjdn5s.jpg"
   },
 
   // -----------------------------------------
@@ -498,7 +498,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "WTF",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268625/image_62_zqrh46.jpg"
   },
   {
     id: "WTF14",
@@ -507,7 +507,7 @@ export const menuItems: MenuItem[] = [
     price: 2.95,
     category: "WTF",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268638/image_66_grtwfe.jpg"
   },
   {
     id: "WTF15",
@@ -516,7 +516,7 @@ export const menuItems: MenuItem[] = [
     price: 3.95,
     category: "WTF",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268579/image_44_l8du7b.jpg"
   },
 
   // -----------------------------------------
@@ -529,7 +529,7 @@ export const menuItems: MenuItem[] = [
     price: 1.45,
     category: "WTF",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268592/image_50_dge42u.jpg"
   },
   {
     id: "WTF17",
@@ -538,7 +538,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "WTF",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268592/image_50_dge42u.jpg"
   },
   {
     id: "WTF18",
@@ -547,7 +547,7 @@ export const menuItems: MenuItem[] = [
     price: 1.45,
     category: "WTF",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268575/image_42_awbemr.jpg"
   },
   {
     id: "WTF19",
@@ -556,7 +556,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "WTF",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268537/image_22_rncbes.jpg"
   },
   {
     id: "WTF20",
@@ -565,7 +565,7 @@ export const menuItems: MenuItem[] = [
     price: 0.95,
     category: "WTF",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268627/image_64_vrp3ha.jpg"
   },
 
   // -----------------------------------------
@@ -578,7 +578,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "WTF",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268562/image_36_yzjqhm.jpg"
   },
   {
     id: "WTF22",
@@ -587,7 +587,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "WTF",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268535/image_20_u6yot9.jpg"
   },
   {
     id: "WTF23",
@@ -596,7 +596,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "WTF",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268643/image_68_wiavfa.jpg"
   },
   {
     id: "WTF24",
@@ -605,7 +605,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "WTF",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268517/image_11_zmb2ox.jpg"
   },
   {
     id: "WTF25",
@@ -614,7 +614,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "WTF",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268471/image_2_rt9n1w.jpg"
   }, {
     id: "KS1",
     name: "Classic Miso Cheeseburger",
@@ -623,7 +623,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269975/image_26_p2xott.jpg",
     
   },
   {
@@ -634,7 +634,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269956/image_19_pqay4u.jpg",
     isPopular: true
   },
   {
@@ -645,7 +645,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269946/image_15_itua9m.jpg"
   },
   {
     id: "KS4",
@@ -655,7 +655,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269679/image_44_zboe8z.jpg",
     isPopular: true
   },
   {
@@ -666,7 +666,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269955/image_18_avki5z.jpg",
     
   },
   {
@@ -677,7 +677,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269900/image_80_rqmvjx.jpg"
   },
   {
     id: "KS7",
@@ -687,7 +687,7 @@ export const menuItems: MenuItem[] = [
     price: 5.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269865/image_66_ffuws6.jpg"
   },
   {
     id: "KS8",
@@ -697,7 +697,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Umami Smash Burgers",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269643/image_37_tpk33m.jpg",
    
   },
 
@@ -712,7 +712,7 @@ export const menuItems: MenuItem[] = [
     price: 8.49,
     category: "Kuro Smash",
     subcategory: "Fried Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269871/image_69_yqsyeq.jpg"
   },
   {
     id: "KS10",
@@ -722,7 +722,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Fried Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269893/image_77_vxmacz.jpg"
   },
   {
     id: "KS11",
@@ -732,7 +732,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Fried Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269901/image_81_o7pksn.jpg"
   },
   {
     id: "KS12",
@@ -742,7 +742,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Fried Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269944/image_14_egsjjc.jpg"
   },
   {
     id: "KS13",
@@ -752,7 +752,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Kuro Smash",
     subcategory: "Fried Chicken Burgers",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269646/image_39_m8autx.jpg"
   },
 
   // ---------------------------------------------------
@@ -766,7 +766,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Kuro Smash",
     subcategory: "Kuro Wings,Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269680/image_46_bu5fcn.jpg"
   },
   {
     id: "KS15",
@@ -776,7 +776,7 @@ export const menuItems: MenuItem[] = [
     price: 7.49,
     category: "Kuro Smash",
     subcategory: "Kuro Wings,Tenders & Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269680/image_45_gnrshx.jpg"
   },
   {
     id: "KS16",
@@ -786,7 +786,7 @@ export const menuItems: MenuItem[] = [
     price: 8.49,
     category: "Kuro Smash",
     subcategory: "Kuro Wings,Tenders & Bites",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269678/image_42_pvl0kj.jpg",
     isPopular: true
   },
 
@@ -800,7 +800,7 @@ export const menuItems: MenuItem[] = [
     price: 2.99,
     category: "Kuro Smash",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269699/image_50_wuhwpz.jpg"
   },
   {
     id: "KS18",
@@ -810,7 +810,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Kuro Smash",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269679/image_43_as6dur.jpg",
     isPopular: true
   },
   {
@@ -820,7 +820,7 @@ export const menuItems: MenuItem[] = [
     price: 2.99,
     category: "Kuro Smash",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269894/image_78_xpg18c.jpg"
   },
   {
     id: "KS20",
@@ -830,7 +830,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Kuro Smash",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269631/image_32_vsizfn.jpg"
   },
   {
     id: "KS21",
@@ -840,7 +840,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Kuro Smash",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269870/image_68_rsfoq2.jpg"
   },
 
   // ---------------------------------------------------
@@ -853,7 +853,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269937/image_11_recoln.jpg"
   },
   {
     id: "KS23",
@@ -862,7 +862,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269976/image_27_dy7xp4.jpg"
   },
   {
     id: "KS24",
@@ -871,7 +871,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269976/image_27_dy7xp4.jpg"
   },
   {
     id: "KS25",
@@ -880,7 +880,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269899/image_79_htwi1h.jpg"
   },
   {
     id: "KS26",
@@ -889,7 +889,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269882/image_72_ac7ssg.jpg"
   },
   {
     id: "KS27",
@@ -898,7 +898,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269886/image_75_ccklj8.jpg"
   },
   {
     id: "KS28",
@@ -907,7 +907,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Kuro Smash",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765269948/image_16_ktph4d.jpg"
   },
 
   // ---------------------------------------------------
@@ -920,7 +920,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Kuro Smash",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268517/image_11_zmb2ox.jpg"
   },
   {
     id: "KS30",
@@ -929,7 +929,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Kuro Smash",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268471/image_2_rt9n1w.jpg"
   },
   {
     id: "KS31",
@@ -938,7 +938,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Kuro Smash",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268562/image_36_yzjqhm.jpg"
   },
   {
     id: "KS32",
@@ -947,7 +947,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Kuro Smash",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268643/image_68_wiavfa.jpg"
   },
   {
     id: "KS33",
@@ -956,7 +956,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Kuro Smash",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268535/image_20_u6yot9.jpg"
   },{
     id: "KT1",
     name: "Honey Garlic Soy Rice Bowl",
@@ -965,7 +965,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Koreatown",
     subcategory: "Korean Rice Bowles",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277223/image_18_anh8sk.jpg",
    
   },
   {
@@ -976,7 +976,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Koreatown",
     subcategory: "Korean Rice Bowles",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277395/image_37_jskysp.jpg",
     
   },
   {
@@ -987,7 +987,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Koreatown",
     subcategory: "Korean Rice Bowles",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277223/image_18_anh8sk.jpg"
   },
   {
     id: "KT4",
@@ -997,7 +997,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Koreatown",
     subcategory: "Korean Rice Bowles",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277397/image_46_zupb06.jpg",
    
   },
   {
@@ -1008,7 +1008,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Koreatown",
     subcategory: "Korean Rice Bowles",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277220/image_6_v418lf.jpg"
   },
 
   // ---------------------------------------------
@@ -1022,7 +1022,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Koreatown",
     subcategory: "Korean Chicken Burger",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277395/image_39_yynvr0.jpg"
   },
   {
     id: "KT7",
@@ -1032,7 +1032,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Koreatown",
     subcategory: "Korean Chicken Burger",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277395/image_36_usigxz.jpg"
   },
 
   // ---------------------------------------------
@@ -1046,7 +1046,7 @@ export const menuItems: MenuItem[] = [
     price: 8.49,
     category: "Koreatown",
     subcategory: "KFC-Korean Fried Chicken",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277209/image_66_d70ndv.jpg",
     isPopular: true
   },
   {
@@ -1057,7 +1057,7 @@ export const menuItems: MenuItem[] = [
     price: 7.49,
     category: "Koreatown",
     subcategory: "KFC-Korean Fried Chicken",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277219/image_3_cxog1q.jpg",
     isPopular: true
   },
   {
@@ -1068,7 +1068,7 @@ export const menuItems: MenuItem[] = [
     price: 7.49,
     category: "Koreatown",
     subcategory: "KFC-Korean Fried Chicken",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277399/image_58_v2mjxu.jpg"
   },
 
   // ---------------------------------------------
@@ -1082,7 +1082,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277397/image_45_uam5mv.jpg",
     isPopular: true
   },
   {
@@ -1093,7 +1093,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277220/image_5_a0ed5a.jpg",
     isPopular: true
   },
   {
@@ -1104,7 +1104,7 @@ export const menuItems: MenuItem[] = [
     price: 4.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277223/image_20_to4xzs.jpg"
   },
   {
     id: "KT14",
@@ -1114,7 +1114,7 @@ export const menuItems: MenuItem[] = [
     price: 2.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277222/image_19_jzlq7y.jpg"
   },
   {
     id: "KT15",
@@ -1124,7 +1124,7 @@ export const menuItems: MenuItem[] = [
     price: 6.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277207/image_67_uofqas.jpg"
   },
   {
     id: "KT16",
@@ -1133,7 +1133,7 @@ export const menuItems: MenuItem[] = [
     price: 2.99,
     category: "Koreatown",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277222/image_19_jzlq7y.jpg"
   },
 
   // ---------------------------------------------
@@ -1146,7 +1146,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Koreatown",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277210/image_69_wz8la4.jpg"
   },
   {
     id: "KT18",
@@ -1155,7 +1155,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Koreatown",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277398/image_52_mpmyyh.jpg"
   },
   {
     id: "KT19",
@@ -1164,7 +1164,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Koreatown",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277224/image_21_lvhlz3.jpg"
   },
   {
     id: "KT20",
@@ -1173,7 +1173,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Koreatown",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277396/image_43_rsx6og.jpg"
   },
   {
     id: "KT21",
@@ -1182,7 +1182,7 @@ export const menuItems: MenuItem[] = [
     price: 0.99,
     category: "Koreatown",
     subcategory: "Dips",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765277222/image_17_ilkj03.jpg"
   },
 
   // ---------------------------------------------
@@ -1195,7 +1195,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Koreatown",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268562/image_36_yzjqhm.jpg"
   },
   {
     id: "KT23",
@@ -1204,7 +1204,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Koreatown",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268471/image_2_rt9n1w.jpg"
   },
   {
     id: "KT24",
@@ -1213,7 +1213,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Koreatown",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268643/image_68_wiavfa.jpg"
   },
   {
     id: "KT25",
@@ -1222,7 +1222,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Koreatown",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268517/image_11_zmb2ox.jpg"
   },
   {
     id: "KT26",
@@ -1231,7 +1231,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Koreatown",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268535/image_20_u6yot9.jpg"
   },
    {
     id: "WW1",
@@ -1241,7 +1241,7 @@ export const menuItems: MenuItem[] = [
     price: 7.95,
     category: "Winning Wings",
     subcategory: "Winning Wings",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279771/image_14_lecdph.jpg",
     isPopular: true
   },
   {
@@ -1252,7 +1252,7 @@ export const menuItems: MenuItem[] = [
     price: 7.95,
     category: "Winning Wings",
     subcategory: "Winning Wings",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279806/image_60_txxyy4.jpg"
   },
   {
     id: "WW3",
@@ -1262,7 +1262,7 @@ export const menuItems: MenuItem[] = [
     price: 7.95,
     category: "Winning Wings",
     subcategory: "Winning Wings",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279774/image_20_wn5del.jpg",
     isPopular: true
   },
   {
@@ -1273,7 +1273,7 @@ export const menuItems: MenuItem[] = [
     price: 7.95,
     category: "Winning Wings",
     subcategory: "Winning Wings",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279806/image_63_aboyyh.jpg"
   },
 
   // ---------------------------------------------
@@ -1287,7 +1287,7 @@ export const menuItems: MenuItem[] = [
     price: 8.50,
     category: "Winning Wings",
     subcategory: "Chicken Buns",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279775/image_26_mqyyak.jpg",
     isPopular: true
   },
   {
@@ -1298,7 +1298,7 @@ export const menuItems: MenuItem[] = [
     price: 8.50,
     category: "Winning Wings",
     subcategory: "Chicken Buns",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279776/image_33_gx5pg6.jpg"
   },
 
   // ---------------------------------------------
@@ -1312,7 +1312,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Winning Wings",
     subcategory: "Chicken Tender",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279774/image_17_hpfqly.jpg",
     isPopular: true
   },
   {
@@ -1323,7 +1323,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Winning Wings",
     subcategory: "Chicken Tender",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279807/image_66_d95wjx.jpg"
   },
   {
     id: "WW9",
@@ -1333,7 +1333,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Winning Wings",
     subcategory: "Chicken Tender",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279779/image_41_soyxql.jpg"
   },
   {
     id: "WW10",
@@ -1343,7 +1343,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Winning Wings",
     subcategory: "Chicken Tender",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279771/image_12_hhulf1.jpg",
     isPopular: true
   },
 
@@ -1358,7 +1358,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Winning Wings",
     subcategory: "Chicken Bites",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279778/image_37_axq2ia.jpg",
     isPopular: true
   },
   {
@@ -1369,7 +1369,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Winning Wings",
     subcategory: "Chicken Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279776/image_30_jmdjja.jpg"
   },
   {
     id: "WW13",
@@ -1379,7 +1379,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Winning Wings",
     subcategory: "Chicken Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279805/image_58_hsgcpy.jpg"
   },
   {
     id: "WW14",
@@ -1389,7 +1389,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Winning Wings",
     subcategory: "Chicken Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279806/image_62_dgmodp.jpg"
   },
 
   // ---------------------------------------------
@@ -1416,7 +1416,7 @@ export const menuItems: MenuItem[] = [
     price: 2.95,
     category: "Winning Wings",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279805/image_57_fernlo.jpg"
   },
   {
     id: "WW17",
@@ -1426,7 +1426,7 @@ export const menuItems: MenuItem[] = [
     price: 4.95,
     category: "Winning Wings",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279772/image_15_qonuph.jpg"
   },
 
   // ---------------------------------------------
@@ -1439,7 +1439,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279776/image_31_tczpmq.jpg"
   },
   {
     id: "WW19",
@@ -1448,7 +1448,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279776/image_31_tczpmq.jpg"
   },
   {
     id: "WW20",
@@ -1457,7 +1457,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279774/image_19_k34xao.jpg"
   },
   {
     id: "WW21",
@@ -1466,7 +1466,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279775/image_25_abekgy.jpg"
   },
   {
     id: "WW22",
@@ -1475,7 +1475,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279774/image_21_nrln2x.jpg"
   },
   {
     id: "WW23",
@@ -1484,7 +1484,7 @@ export const menuItems: MenuItem[] = [
     price: 1.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279774/image_21_nrln2x.jpg"
   },
   {
     id: "WW24",
@@ -1494,7 +1494,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Winning Wings",
     subcategory: "Sauces",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765279804/image_48_qigvbt.jpg"
   },
 
   // ---------------------------------------------
@@ -1507,7 +1507,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Winning Wings",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268471/image_2_rt9n1w.jpg"
   },
   {
     id: "WW26",
@@ -1516,7 +1516,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Winning Wings",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268562/image_36_yzjqhm.jpg"
   },
   {
     id: "WW27",
@@ -1525,7 +1525,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Winning Wings",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268517/image_11_zmb2ox.jpg"
   },
   {
     id: "WW28",
@@ -1534,7 +1534,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Winning Wings",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268643/image_68_wiavfa.jpg"
   },
   {
     id: "WW29",
@@ -1543,7 +1543,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Winning Wings",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268535/image_20_u6yot9.jpg"
   },{
     id: "WON1",
     name: "Meal Deal for 2",
@@ -1583,7 +1583,7 @@ export const menuItems: MenuItem[] = [
     price: 15.99,
     category: "Wings Of Nature",
     subcategory: "Meal Deals",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281241/image_57_cdzfqq.jpg"
   },
   {
     id: "WON5",
@@ -1617,7 +1617,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281226/image_50_stqbcw.jpg"
   },
   {
     id: "WON8",
@@ -1626,7 +1626,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281239/image_56_wee5z5.jpg"
   },
   {
     id: "WON9",
@@ -1636,7 +1636,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281121/image_107_drtuif.jpg"
   },
   {
     id: "WON10",
@@ -1646,7 +1646,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281095/image_91_s4k9se.jpg"
   },
   {
     id: "WON11",
@@ -1656,7 +1656,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281242/image_63_hdpunx.jpg"
   },
   {
     id: "WON12",
@@ -1666,7 +1666,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281084/image_82_efhy7c.jpg"
   },
   {
     id: "WON13",
@@ -1676,7 +1676,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281270/image_75_ibk4cz.jpg"
   },
   {
     id: "WON14",
@@ -1686,7 +1686,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Tenders",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281241/image_62_t3svzq.jpg"
   },
 
   // -----------------------------------------------------
@@ -1700,7 +1700,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281226/image_51_wsetbh.jpg",
     isPopular: true
   },
   {
@@ -1711,7 +1711,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281160/image_9_g1anba.jpg"
   },
   {
     id: "WON17",
@@ -1721,7 +1721,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281162/image_13_rlvxbd.jpg"
   },
   {
     id: "WON18",
@@ -1731,7 +1731,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281224/image_47_yehffn.jpg"
   },
   {
     id: "WON19",
@@ -1741,7 +1741,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281224/image_48_hnchha.jpg"
   },
   {
     id: "WON20",
@@ -1751,7 +1751,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281240/image_60_jw7nxz.jpg"
   },
   {
     id: "WON21",
@@ -1761,7 +1761,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281094/image_90_cyja6t.jpg"
   },
   {
     id: "WON22",
@@ -1771,7 +1771,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "Bites",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281164/image_12_t0iwnl.jpg"
   },
 
   // -----------------------------------------------------
@@ -1785,7 +1785,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281238/image_55_ix6glm.jpg"
   },
   {
     id: "WON24",
@@ -1795,7 +1795,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281242/image_61_thgupk.jpg"
   },
   {
     id: "WON25",
@@ -1805,7 +1805,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281269/image_71_ffaly4.jpg"
   },
   {
     id: "WON26",
@@ -1815,7 +1815,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281239/image_58_ixpo6z.jpg"
   },
   {
     id: "WON27",
@@ -1825,7 +1825,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281207/image_39_vk6nk9.jpg"
   },
   {
     id: "WON28",
@@ -1835,7 +1835,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281162/image_11_q50z7f.jpg"
   },
   {
     id: "WON29",
@@ -1845,7 +1845,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281207/image_39_vk6nk9.jpg"
   },
   {
     id: "WON30",
@@ -1855,7 +1855,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Wings Of Nature",
     subcategory: "DrumSticks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281161/image_10_jijrrg.jpg"
   },
 
   // -----------------------------------------------------
@@ -1869,7 +1869,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Wings Of Nature",
     subcategory: "Vegan Chicken Buns",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281194/image_34_jfr2gn.jpg"
   },
   {
     id: "WON32",
@@ -1879,7 +1879,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Wings Of Nature",
     subcategory: "Vegan Chicken Buns",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281092/image_84_igtouy.jpg"
   },
   {
     id: "WON33",
@@ -1889,7 +1889,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Wings Of Nature",
     subcategory: "Vegan Chicken Buns",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281241/image_59_yrc005.jpg"
   },
   {
     id: "WON34",
@@ -1899,7 +1899,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Wings Of Nature",
     subcategory: "Vegan Chicken Buns",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281094/image_89_ogsayb.jpg"
   },
 
   // -----------------------------------------------------
@@ -1912,7 +1912,7 @@ export const menuItems: MenuItem[] = [
     price: 3.60,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281104/image_96_ojandd.jpg"
   },
   {
     id: "WON36",
@@ -1922,7 +1922,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281134/image_120_czvzhc.jpg"
   },
   {
     id: "WON37",
@@ -1932,7 +1932,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281132/image_115_wsl78v.jpg"
   },
   {
     id: "WON38",
@@ -1942,7 +1942,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281133/image_118_c8wcup.jpg",
     isPopular: true
   },
   {
@@ -1952,7 +1952,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281133/image_122_njm0di.jpg"
   },
   {
     id: "WON40",
@@ -1962,7 +1962,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Wings Of Nature",
     subcategory: "Sides",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281122/image_111_wn13r5.jpg"
   },
   {
     id: "WON41",
@@ -1984,7 +1984,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268471/image_2_rt9n1w.jpg"
   },
   {
     id: "WON43",
@@ -1993,7 +1993,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268562/image_36_yzjqhm.jpg"
   },
   {
     id: "WON44",
@@ -2002,7 +2002,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281084/image_83_obuzw2.jpg"
   },
   {
     id: "WON45",
@@ -2011,7 +2011,7 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281104/image_97_tptgai.jpg"
   },
   {
     id: "WON46",
@@ -2020,7 +2020,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268643/image_68_wiavfa.jpg"
   },
   {
     id: "WON47",
@@ -2029,7 +2029,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268535/image_20_u6yot9.jpg"
   },
   {
     id: "WON48",
@@ -2038,7 +2038,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765268517/image_11_zmb2ox.jpg"
   },
   {
     id: "WON49",
@@ -2047,7 +2047,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281133/image_119_xt7fny.jpg"
   },
   {
     id: "WON50",
@@ -2056,7 +2056,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281120/image_106_fwid8p.jpg"
   },
   {
     id: "WON51",
@@ -2065,7 +2065,7 @@ export const menuItems: MenuItem[] = [
     price: 3.00,
     category: "Wings Of Nature",
     subcategory: "Drinks",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281103/image_94_ubwga4.jpg"
   },
 
   // -----------------------------------------------------
@@ -2154,7 +2154,7 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Wings Of Nature",
     subcategory: "Alcohol",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281103/image_93_c1duxq.jpg",
     isPopular: true
   },
   {
@@ -2164,33 +2164,13 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Wings Of Nature",
     subcategory: "Alcohol",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281103/image_95_j6vujy.jpg"
   },
 
   // -----------------------------------------------------
   // Milkshakes
   // -----------------------------------------------------
-  {
-    id: "WON62",
-    name: "Vegan Biscoff Milkshake",
-    description:
-      "Nutty, buttery, spiced cookie-flavoured vegan shake.",
-    price: 7.99,
-    category: "Wings Of Nature",
-    subcategory: "Milkshakes",
-    image: "IMAGE_URL_HERE",
-    isPopular: true
-  },
-  {
-    id: "WON63",
-    name: "Vegan Vanilla Shake",
-    description:
-      "Oat milk, vegan ice cream & Madagascar vanilla.",
-    price: 7.99,
-    category: "Wings Of Nature",
-    subcategory: "Milkshakes",
-    image: "IMAGE_URL_HERE"
-  },
+
   {
     id: "WON64",
     name: "Vegan Strawberry Shake",
@@ -2198,7 +2178,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Wings Of Nature",
     subcategory: "Milkshakes",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281121/image_112_c1gfnt.jpg"
   },
   {
     id: "WON65",
@@ -2207,7 +2187,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Wings Of Nature",
     subcategory: "Milkshakes",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281113/image_100_ymfp3i.jpg"
   },
   {
     id: "WON66",
@@ -2217,7 +2197,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Wings Of Nature",
     subcategory: "Milkshakes",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281132/image_114_poxfxj.jpg"
   },
 
   // -----------------------------------------------------
@@ -2231,7 +2211,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Wings Of Nature",
     subcategory: "Desserts",
-    image: "IMAGE_URL_HERE",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281133/image_121_vk6sur.jpg",
     isPopular: true
   },
   {
@@ -2241,7 +2221,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Wings Of Nature",
     subcategory: "Desserts",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281121/image_109_k3ibc8.jpg"
   },
   {
     id: "WON69",
@@ -2250,7 +2230,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Wings Of Nature",
     subcategory: "Desserts",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281121/image_108_rqakiu.jpg"
   },
   {
     id: "WON70",
@@ -2259,7 +2239,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Wings Of Nature",
     subcategory: "Desserts",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281121/image_110_ydko87.jpg"
   },
   {
     id: "WON71",
@@ -2268,7 +2248,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Wings Of Nature",
     subcategory: "Desserts",
-    image: "IMAGE_URL_HERE"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765281120/image_105_nqtaar.jpg"
   },
   // items for vagenvibes
  {
@@ -2278,7 +2258,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/drunken-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296849/image_144_aytyni.jpg"
   },
   {
     id: "VV-OR-2",
@@ -2287,7 +2267,7 @@ export const menuItems: MenuItem[] = [
     price: 10.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/satay-skewers.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296856/image_151_fwdad4.jpg"
   },
   {
     id: "VV-OR-3",
@@ -2296,7 +2276,7 @@ export const menuItems: MenuItem[] = [
     price: 8.85,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/salt-pepper-tofu.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296796/image_123_fovifv.jpg"
   },
   {
     id: "VV-OR-4",
@@ -2305,7 +2285,7 @@ export const menuItems: MenuItem[] = [
     price: 13.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/chilli-lamb.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296859/image_157_fqi6du.jpg"
   },
   {
     id: "VV-OR-5",
@@ -2314,7 +2294,7 @@ export const menuItems: MenuItem[] = [
     price: 7.45,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/spring-rolls.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296798/image_129_c1vzaz.jpg"
   },
   {
     id: "VV-OR-6",
@@ -2323,7 +2303,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/szechuan-lamb-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296480/image_240_bqxk1r.jpg"
   },
   {
     id: "VV-OR-7",
@@ -2332,7 +2312,7 @@ export const menuItems: MenuItem[] = [
     price: 7.00,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/mixed-greens.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296456/image_199_yssg4o.jpg"
   },
   {
     id: "VV-OR-8",
@@ -2341,7 +2321,7 @@ export const menuItems: MenuItem[] = [
     price: 13.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/chilli-chicken.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296860/image_156_lncpdj.jpg"
   },
   {
     id: "VV-OR-9",
@@ -2350,7 +2330,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/eight-jewels-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296860/image_158_msrrgi.jpg"
   },
   {
     id: "VV-OR-10",
@@ -2359,7 +2339,7 @@ export const menuItems: MenuItem[] = [
     price: 13.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/pad-thai.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296863/image_174_ftlyls.jpg"
   },
   {
     id: "VV-OR-11",
@@ -2368,7 +2348,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/szechuan-chicken-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296859/image_159_kw9ng3.jpg"
   },
   {
     id: "VV-OR-12",
@@ -2377,7 +2357,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-massaman.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296846/image_142_qf6nll.jpg"
   },
   {
     id: "VV-OR-13",
@@ -2386,7 +2366,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/hoisin-duck-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296408/image_183_hvqvhs.jpg"
   },
   {
     id: "VV-OR-14",
@@ -2395,7 +2375,7 @@ export const menuItems: MenuItem[] = [
     price: 12.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-pad-thai.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296413/image_193_s901r8.jpg"
   },
   {
     id: "VV-OR-15",
@@ -2404,7 +2384,7 @@ export const menuItems: MenuItem[] = [
     price: 9.00,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/salt-pepper-chicken.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296796/image_123_fovifv.jpg"
   },
   {
     id: "VV-OR-16",
@@ -2413,7 +2393,7 @@ export const menuItems: MenuItem[] = [
     price: 15.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/lamb-thai-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_313_nqgjhe.jpg"
   },
   {
     id: "VV-OR-17",
@@ -2422,7 +2402,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/soya-massaman.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296862/image_169_aibfww.jpg"
   },
   {
     id: "VV-OR-18",
@@ -2431,7 +2411,7 @@ export const menuItems: MenuItem[] = [
     price: 5.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/coconut-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296862/image_170_x8ubzb.jpg"
   },
   {
     id: "VV-OR-19",
@@ -2440,7 +2420,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-green-curry.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296469/image_217_q4loe6.jpg"
   },
   {
     id: "VV-OR-20",
@@ -2449,7 +2429,7 @@ export const menuItems: MenuItem[] = [
     price: 14.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/sweet-sour.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296861/image_166_ebksiy.jpg"
   },
   {
     id: "VV-OR-21",
@@ -2458,7 +2438,7 @@ export const menuItems: MenuItem[] = [
     price: 7.00,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/plain-rice-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296857/image_153_v6bdqn.jpg"
   },
   {
     id: "VV-OR-22",
@@ -2467,7 +2447,7 @@ export const menuItems: MenuItem[] = [
     price: 9.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-green-thai-treasure.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296852/image_141_vadmh1.jpg"
   },
   {
     id: "VV-OR-23",
@@ -2476,7 +2456,7 @@ export const menuItems: MenuItem[] = [
     price: 13.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-black-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296858/image_155_vztoku.jpg"
   },
   {
     id: "VV-OR-24",
@@ -2485,7 +2465,7 @@ export const menuItems: MenuItem[] = [
     price: 13.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/chicken-satay-pot.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296859/image_147_g7wfvd.jpg"
   },
   {
     id: "VV-OR-25",
@@ -2494,7 +2474,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-red-curry.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296831/image_140_cs3row.jpg"
   },
   {
     id: "VV-OR-26",
@@ -2503,7 +2483,7 @@ export const menuItems: MenuItem[] = [
     price: 12.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/soyamari.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296411/image_189_urn2dd.jpg"
   },
   {
     id: "VV-OR-27",
@@ -2512,7 +2492,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/mangswirati-pad-thai.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296863/image_174_ftlyls.jpg"
   },
   {
     id: "VV-OR-28",
@@ -2521,7 +2501,7 @@ export const menuItems: MenuItem[] = [
     price: 8.80,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/shiitake-gyoza.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296483/image_246_haqdp2.jpg"
   },
   {
     id: "VV-OR-29",
@@ -2530,7 +2510,7 @@ export const menuItems: MenuItem[] = [
     price: 16.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/teriyaki-katsu.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296477/image_232_fwovab.jpg"
   },
   {
     id: "VV-OR-30",
@@ -2539,7 +2519,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/vegan-prawns.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296862/image_165_zcnajd.jpg"
   },
   {
     id: "VV-OR-31",
@@ -2548,7 +2528,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/vegan-green-curry.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296860/image_162_b8ljep.jpg"
   },
   {
     id: "VV-OR-32",
@@ -2557,7 +2537,7 @@ export const menuItems: MenuItem[] = [
     price: 13.15,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/chicken-pad-thai.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296855/image_148_dpfyj7.jpg"
   },
   {
     id: "VV-OR-33",
@@ -2566,7 +2546,7 @@ export const menuItems: MenuItem[] = [
     price: 15.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/red-massaman.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296857/image_150_zvzuyw.jpg"
   },
   {
     id: "VV-OR-34",
@@ -2575,16 +2555,16 @@ export const menuItems: MenuItem[] = [
     price: 16.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/teriyaki-donburi.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296412/image_190_mgu0xg.jpg"
   },
   {
     id: "VV-OR-35",
-    name: "Szechuan Lamb Fried Rice",
+    name: "Szechuan Lamb Fried Rice(Vegan)",
     description: "Vegan lamb fried rice tossed in bold Szechuan sauce.",
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/lamb-fried-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296859/image_159_kw9ng3.jpg"
   },
   {
     id: "VV-OR-36",
@@ -2593,7 +2573,7 @@ export const menuItems: MenuItem[] = [
     price: 7.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/papaya-salad.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296416/image_197_rm9lpx.jpg"
   },
   {
     id: "VV-OR-37",
@@ -2602,7 +2582,7 @@ export const menuItems: MenuItem[] = [
     price: 5.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/jasmine-rice.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296862/image_167_kznom8.jpg"
   },
   {
     id: "VV-OR-38",
@@ -2611,7 +2591,7 @@ export const menuItems: MenuItem[] = [
     price: 8.80,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/duck-gyoza.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296863/image_173_vob5cu.jpg"
   },
   {
     id: "VV-OR-39",
@@ -2620,7 +2600,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/soya-green-curry.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296315/image_281_ja80tn.jpg"
   },
   {
     id: "VV-OR-40",
@@ -2629,7 +2609,7 @@ export const menuItems: MenuItem[] = [
     price: 8.80,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/spicy-veg-gyoza.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296857/image_149_s1fqq0.jpg"
   },
   {
     id: "VV-OR-41",
@@ -2638,7 +2618,7 @@ export const menuItems: MenuItem[] = [
     price: 14.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/soya-black-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296858/image_155_vztoku.jpg"
   },
   {
     id: "VV-OR-42",
@@ -2647,7 +2627,7 @@ export const menuItems: MenuItem[] = [
     price: 14.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/hakka-noodles.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296417/image_198_iftlyt.jpg"
   },
   {
     id: "VV-OR-43",
@@ -2656,7 +2636,7 @@ export const menuItems: MenuItem[] = [
     price: 15.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/cod-fantasy.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296406/image_179_gp6y4y.jpg"
   },
   {
     id: "VV-OR-44",
@@ -2665,7 +2645,7 @@ export const menuItems: MenuItem[] = [
     price: 9.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/lamb-salad.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296416/image_196_ihlfjo.jpg"
   },
   {
     id: "VV-OR-45",
@@ -2674,7 +2654,7 @@ export const menuItems: MenuItem[] = [
     price: 14.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/black-bean-protein.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296475/image_227_hld7jt.jpg"
   },
   {
     id: "VV-OR-46",
@@ -2683,7 +2663,7 @@ export const menuItems: MenuItem[] = [
     price: 13.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/bangkok-cod.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296406/image_179_gp6y4y.jpg"
   },
   {
     id: "VV-OR-47",
@@ -2692,7 +2672,7 @@ export const menuItems: MenuItem[] = [
     price: 12.20,
     category: "Vegan Vibes",
     subcategory: "Vegan Oriental Cuisine",
-    image: "/ai/vegan-vibes/oriental/tofu-teriyaki.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296410/image_188_vi7cfr.jpg"
   },{
     id: "VV-AM-1",
     name: "Maple Sriracha - Tenders",
@@ -2700,7 +2680,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/maple-sriracha-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296461/image_207_b23oth.jpg"
   },
   {
     id: "VV-AM-2",
@@ -2709,7 +2689,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-honey-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296409/image_186_pe7x0d.jpg"
   },
   {
     id: "VV-AM-3",
@@ -2718,7 +2698,7 @@ export const menuItems: MenuItem[] = [
     price: 12.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/smoky-bacon-cheeseburger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296479/image_236_xsgzyi.jpg"
   },
   {
     id: "VV-AM-4",
@@ -2727,7 +2707,7 @@ export const menuItems: MenuItem[] = [
     price: 3.60,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/golden-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296480/image_239_pwkch8.jpg"
   },
   {
     id: "VV-AM-5",
@@ -2736,7 +2716,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chikn-chikita.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296861/image_163_iccpki.jpg"
   },
   {
     id: "VV-AM-6",
@@ -2745,7 +2725,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/gochujang-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296412/image_191_nz9rtd.jpg"
   },
   {
     id: "VV-AM-7",
@@ -2754,7 +2734,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-honey-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296472/image_223_m6ecyh.jpg"
   },
   {
     id: "VV-AM-8",
@@ -2763,7 +2743,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/bbq-bliss.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296568/image_262_pvdwhd.jpg"
   },
   {
     id: "VV-AM-9",
@@ -2772,7 +2752,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/creamy-ranch-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296476/image_230_k1qtwo.jpg"
   },
   {
     id: "VV-AM-10",
@@ -2781,7 +2761,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chipotle-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296407/image_181_yjshko.jpg"
   },
   {
     id: "VV-AM-11",
@@ -2790,7 +2770,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/plain-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296463/image_209_ifyyis.jpg"
   },
   {
     id: "VV-AM-12",
@@ -2799,7 +2779,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hash-harmony.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296408/image_184_x7g0cc.jpg"
   },
   {
     id: "VV-AM-13",
@@ -2808,7 +2788,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-honey-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296415/image_195_jaorj4.jpg"
   },
   {
     id: "VV-AM-14",
@@ -2817,7 +2797,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/honey-garlic-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296413/image_192_wql4zs.jpg"
   },
   {
     id: "VV-AM-15",
@@ -2826,7 +2806,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/honey-garlic-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296470/image_219_ba39pr.jpg"
   },
   {
     id: "VV-AM-16",
@@ -2835,7 +2815,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/jackfruit-magic.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296471/image_218_c5muxg.jpg"
   },
   {
     id: "VV-AM-17",
@@ -2844,7 +2824,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/classic-dog.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296322/image_291_drd0bi.jpg"
   },
   {
     id: "VV-AM-18",
@@ -2853,7 +2833,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/sweet-potato-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296476/image_229_iucxs8.jpg"
   },
   {
     id: "VV-AM-19",
@@ -2862,7 +2842,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/maple-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296481/image_233_p18cgw.jpg"
   },
   {
     id: "VV-AM-20",
@@ -2871,7 +2851,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/korean-bbq-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296487/image_247_z1em98.jpg  "
   },
   {
     id: "VV-AM-21",
@@ -2880,7 +2860,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/plain-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_277_jvgker.jpg"
   },
   {
     id: "VV-AM-22",
@@ -2889,7 +2869,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/korean-bbq-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_302_cf4u0w.jpg"
   },
   {
     id: "VV-AM-23",
@@ -2898,7 +2878,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/cauliflower-waltz.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296475/image_228_cpgvpy.jpg"
   },
   {
     id: "VV-AM-24",
@@ -2907,7 +2887,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/dirty-chilli-dog.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_299_kt5jtt.jpg"
   },
   {
     id: "VV-AM-25",
@@ -2916,7 +2896,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/jackfruit-wings.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296459/image_205_qvio2p.jpg"
   },
   {
     id: "VV-AM-26",
@@ -2925,7 +2905,7 @@ export const menuItems: MenuItem[] = [
     price: 4.49,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/dirty-loaded-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296414/image_194_jcisxd.jpg"
   },
   {
     id: "VV-AM-27",
@@ -2934,7 +2914,7 @@ export const menuItems: MenuItem[] = [
     price: 13.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/maple-double.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296481/image_241_bclexc.jpg"
   },
   {
     id: "VV-AM-28",
@@ -2943,7 +2923,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/maple-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296467/image_212_spuxfh.jpg"
   },
   {
     id: "VV-AM-29",
@@ -2952,7 +2932,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/plain-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296468/image_214_iko9c6.jpg"
   },
   {
     id: "VV-AM-30",
@@ -2961,7 +2941,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-sweet-chilli-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296568/image_264_zrbrim.jpg"
   },
   {
     id: "VV-AM-31",
@@ -2970,7 +2950,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/ranch-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296567/image_261_u6swwe.jpg"
   },
   {
     id: "VV-AM-32",
@@ -2979,7 +2959,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/creamy-ranch-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296461/image_206_rkls13.jpg"
   },
   {
     id: "VV-AM-33",
@@ -2988,7 +2968,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/onion-rings.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_265_j5xrz7.jpg"
   },
   {
     id: "VV-AM-34",
@@ -2997,7 +2977,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chipotle-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296486/image_251_zrbxo0.jpg"
   },
   {
     id: "VV-AM-35",
@@ -3006,7 +2986,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/creamy-ranch-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_276_ktli8t.jpg"
   },
   {
     id: "VV-AM-36",
@@ -3015,7 +2995,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/seoulful-symphony.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296322/image_288_t1yrjd.jpg"
   },
   {
     id: "VV-AM-37",
@@ -3024,7 +3004,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/korean-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296468/image_215_d5qlz3.jpg"
   },
   {
     id: "VV-AM-38",
@@ -3033,7 +3013,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-sweet-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296457/image_202_s4ucfb.jpg"
   },
   {
     id: "VV-AM-39",
@@ -3042,7 +3022,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chipotle-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296485/image_250_qnrioh.jpg"
   },
   {
     id: "VV-AM-40",
@@ -3051,7 +3031,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chipotle-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296568/image_258_mdtkkw.jpg"
   },
   {
     id: "VV-AM-41",
@@ -3060,7 +3040,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/creamy-ranch-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296458/image_203_l6icoy.jpg"
   },
   {
     id: "VV-AM-42",
@@ -3069,7 +3049,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/bean-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296476/image_231_qywhwv.jpg"
   },
   {
     id: "VV-AM-43",
@@ -3078,7 +3058,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/chipotle-bites.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296567/image_260_te4abc.jpg"
   },
   {
     id: "VV-AM-44",
@@ -3087,7 +3067,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/honey-garlic-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296464/image_210_np9rld.jpg"
   },
   {
     id: "VV-AM-45",
@@ -3096,7 +3076,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-sweet-drumsticks.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296401/image_308_nkwqpy.jpg"
   },
   {
     id: "VV-AM-46",
@@ -3105,7 +3085,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/hot-sweet-tenders.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296465/image_211_plv1en.jpg"
   },
   {
     id: "VV-AM-47",
@@ -3114,16 +3094,16 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan American Cuisine",
-    image: "/ai/vegan-vibes/american/korean-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296474/image_225_murdj3.jpg"
   },{
     id: "VV-CA-1",
-    name: "Spice Isle Vegan Goatless Feast",
+    name: "Spice Isle Vegan Goatless Feast(Curry Goat Rice & Peas)",
     description:
       "Vegan goat chunks cooked in Caribbean-spiced sauce with potatoes, steamed green beans, rice & peas, roti, and plantain.",
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/spice-isle-goatless-feast.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296315/image_282_r4wvti.jpg",
   },
   {
     id: "VV-CA-2",
@@ -3133,7 +3113,7 @@ export const menuItems: MenuItem[] = [
     price: 9.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/mac-harmony.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296467/image_213_ob0xce.jpg",
   },
   {
     id: "VV-CA-3",
@@ -3143,7 +3123,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/jerk-chickn-stew.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296481/image_242_nuaqyi.jpg",
   },
   {
     id: "VV-CA-4",
@@ -3153,7 +3133,7 @@ export const menuItems: MenuItem[] = [
     price: 15.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/pumpkin-chickpea-curry.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_280_dc8a5v.jpg",
   },
   {
     id: "VV-CA-5",
@@ -3163,7 +3143,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/ocean-whisper-cod.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296473/image_224_kybptt.jpg",
   },
   {
     id: "VV-CA-6",
@@ -3172,7 +3152,7 @@ export const menuItems: MenuItem[] = [
     price: 6.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/fried-plantain.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296322/image_289_wes8sz.jpg",
   },
   {
     id: "VV-CA-7",
@@ -3182,7 +3162,7 @@ export const menuItems: MenuItem[] = [
     price: 7.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/plantain-bliss.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296322/image_289_wes8sz.jpg",
   },
   {
     id: "VV-CA-8",
@@ -3192,7 +3172,7 @@ export const menuItems: MenuItem[] = [
     price: 3.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/corn-on-cob.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296315/image_273_fgxqqz.jpg",
   },
   {
     id: "VV-CA-9",
@@ -3201,7 +3181,7 @@ export const menuItems: MenuItem[] = [
     price: 2.0,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/paratha.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296478/image_235_o4vnpv.jpg",
   },
   {
     id: "VV-CA-10",
@@ -3210,7 +3190,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/callaloo.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296401/image_311_w1ki4c.jpg",
   },
   {
     id: "VV-CA-11",
@@ -3220,7 +3200,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/potato-salad.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_268_al0skz.jpg",
   },
   {
     id: "VV-CA-12",
@@ -3229,7 +3209,7 @@ export const menuItems: MenuItem[] = [
     price: 5.40,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/sweet-potato-wedges.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_266_jwuden.jpg",
   },
   {
     id: "VV-CA-13",
@@ -3239,7 +3219,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/patty-bean.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296471/image_220_mq9zjq.jpg",
   },
   {
     id: "VV-CA-14",
@@ -3249,7 +3229,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/jerk-sausage.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296482/image_243_pmjygc.jpg",
   },
   {
     id: "VV-CA-15",
@@ -3258,7 +3238,7 @@ export const menuItems: MenuItem[] = [
     price: 4.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/rice-beans.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296483/image_245_iy7w7y.jpg",
   },
   {
     id: "VV-CA-16",
@@ -3268,7 +3248,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/patty-veg.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296471/image_220_mq9zjq.jpg",
   },
   {
     id: "VV-CA-17",
@@ -3278,7 +3258,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/island-zest-salad.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_312_yjcvpo.jpg",
   },
   {
     id: "VV-CA-18",
@@ -3288,7 +3268,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Vibes",
     subcategory: "Vegan Caribbean Cuisine",
-    image: "/ai/vegan-vibes/caribbean/patty-callaloo.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296471/image_220_mq9zjq.jpg",
   },{
     id: "VV-MD-1",
     name: "Meal Deal for 2",
@@ -3327,7 +3307,7 @@ export const menuItems: MenuItem[] = [
     price: 17.99,
     category: "Vegan Vibes",
     subcategory: "Meal Deals",
-    image: "/ai/vegan-vibes/meals/loaded-burger.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296564/image_253_dliozm.jpg",
   },
   {
     id: "VV-MD-5",
@@ -3337,7 +3317,7 @@ export const menuItems: MenuItem[] = [
     price: 15.99,
     category: "Vegan Vibes",
     subcategory: "Meal Deals",
-    image: "/ai/vegan-vibes/meals/combo-burger.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296564/image_253_dliozm.jpg",
   },
   {
     id: "VV-MD-6",
@@ -3387,7 +3367,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/chicken-quesadilla.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296471/image_221_qwa5ps.jpg",
   },
   {
     id: "VV-MX-2",
@@ -3397,7 +3377,8 @@ export const menuItems: MenuItem[] = [
     price: 13.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/fiesta-burrito.jpg",
+    
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296320/image_278_ico91j.jpg",
   },
   {
     id: "VV-MX-3",
@@ -3407,7 +3388,7 @@ export const menuItems: MenuItem[] = [
     price: 13.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/lamb-burrito.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296323/image_293_a65yav.jpg",
   },
   {
     id: "VV-MX-4",
@@ -3417,7 +3398,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/chilli-fries.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296478/image_234_ynkfkq.jpg",
   },
   {
     id: "VV-MX-5",
@@ -3427,7 +3408,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/chickn-tinga.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296565/image_257_vf08lp.jpg",
   },
   {
     id: "VV-MX-6",
@@ -3437,7 +3418,7 @@ export const menuItems: MenuItem[] = [
     price: 9.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/lamb-nachos.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296324/image_295_spte6w.jpg",
   },
   {
     id: "VV-MX-7",
@@ -3446,7 +3427,7 @@ export const menuItems: MenuItem[] = [
     price: 3.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/fries.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296482/image_244_vter4n.jpg",
   },
   {
     id: "VV-MX-8",
@@ -3456,7 +3437,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/lamb-taco.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296565/image_257_vf08lp.jpg",
   },
   {
     id: "VV-MX-9",
@@ -3466,7 +3447,7 @@ export const menuItems: MenuItem[] = [
     price: 11.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/mexican-burger.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296564/image_254_qvsnga.jpg",
   },
   {
     id: "VV-MX-10",
@@ -3475,7 +3456,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/onion-rings.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_265_j5xrz7.jpg",
   },
   {
     id: "VV-MX-11",
@@ -3485,7 +3466,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/veg-taco.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296565/image_257_vf08lp.jpg",
   },
   {
     id: "VV-MX-12",
@@ -3494,7 +3475,7 @@ export const menuItems: MenuItem[] = [
     price: 1.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/guacamole.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296564/image_252_kosqs6.jpg",
   },
   {
     id: "VV-MX-13",
@@ -3504,7 +3485,7 @@ export const menuItems: MenuItem[] = [
     price: 8.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/quesadilla-verde.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296323/image_294_g8md4e.jpg",
   },
   {
     id: "VV-MX-14",
@@ -3513,7 +3494,7 @@ export const menuItems: MenuItem[] = [
     price: 3.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/plain-fries.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296321/image_284_li05wq.jpg",
   },
   {
     id: "VV-MX-15",
@@ -3522,7 +3503,7 @@ export const menuItems: MenuItem[] = [
     price: 1.99,
     category: "Vegan Vibes",
     subcategory: "Vegan Mexican Cuisine",
-    image: "/ai/vegan-vibes/mexican/vegan-sourcream.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296568/image_263_oxyy1d.jpg",
   },{
     id: "VV-IN-1",
     name: "THIS Isn't Chicken Biryani",
@@ -3531,7 +3512,7 @@ export const menuItems: MenuItem[] = [
     price: 13.45,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/this-isnt-chicken-biryani.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296322/image_292_vignpy.jpg",
   },
   {
     id: "VV-IN-2",
@@ -3541,7 +3522,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/chole-rice.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296566/image_259_ef22ag.jpg",
   },
   {
     id: "VV-IN-3",
@@ -3551,7 +3532,7 @@ export const menuItems: MenuItem[] = [
     price: 7.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/punjabi-chole.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296326/image_298_dlgac8.jpg",
   },
   {
     id: "VV-IN-4",
@@ -3561,7 +3542,7 @@ export const menuItems: MenuItem[] = [
     price: 6.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/punjabi-samosa.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_317_ipoguw.jpg",
   },
   {
     id: "VV-IN-5",
@@ -3571,7 +3552,7 @@ export const menuItems: MenuItem[] = [
     price: 6.45,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/batata-wada.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_267_n2dqy3.jpg",
   },
   {
     id: "VV-IN-6",
@@ -3581,7 +3562,7 @@ export const menuItems: MenuItem[] = [
     price: 5.75,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/samosa-pav.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296320/image_274_ohsunw.jpg",
   },
   {
     id: "VV-IN-7",
@@ -3591,7 +3572,7 @@ export const menuItems: MenuItem[] = [
     price: 8.65,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/wada-chole-chaat.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296316/image_272_smsipb.jpg",
   },
   {
     id: "VV-IN-8",
@@ -3600,7 +3581,7 @@ export const menuItems: MenuItem[] = [
     price: 2.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/plain-naan.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_275_u2dpy0.jpg",
   },
   {
     id: "VV-IN-9",
@@ -3610,7 +3591,7 @@ export const menuItems: MenuItem[] = [
     price: 8.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/samosa-chole-chaat.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296326/image_300_qt8sg3.jpg",
   },
   {
     id: "VV-IN-10",
@@ -3619,7 +3600,7 @@ export const menuItems: MenuItem[] = [
     price: 3.45,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/basmati-rice.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296315/image_271_lvbvig.jpg",
   },
   {
     id: "VV-IN-11",
@@ -3629,7 +3610,7 @@ export const menuItems: MenuItem[] = [
     price: 11.95,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/vegetable-biryani.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296324/image_296_z3wbvf.jpg",
   },
   {
     id: "VV-IN-12",
@@ -3639,7 +3620,7 @@ export const menuItems: MenuItem[] = [
     price: 5.45,
     category: "Vegan Vibes",
     subcategory: "Vegan Indian Cuisine",
-    image: "/ai/vegan-vibes/indian/wada-pav.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296565/image_256_xcdfr8.jpg",
   },
 
 
@@ -3655,7 +3636,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Vibes",
     subcategory: "Vegan Desserts",
-    image: "/ai/vegan-vibes/desserts/biscoff-cheesecake.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296484/image_249_thftfr.jpg",
   },
   {
     id: "VV-DE-2",
@@ -3664,7 +3645,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Vibes",
     subcategory: "Vegan Desserts",
-    image: "/ai/vegan-vibes/desserts/salted-caramel-fudge.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_316_setiv0.jpg",
   },
   {
     id: "VV-DE-3",
@@ -3673,7 +3654,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Vibes",
     subcategory: "Vegan Desserts",
-    image: "/ai/vegan-vibes/desserts/apple-pie.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_307_pbaykt.jpg",
   },
   {
     id: "VV-DE-4",
@@ -3682,7 +3663,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Vibes",
     subcategory: "Vegan Desserts",
-    image: "/ai/vegan-vibes/desserts/chocolate-fudge.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296483/image_248_sa0q4m.jpg",
   },
   {
     id: "VV-DE-5",
@@ -3691,7 +3672,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Vibes",
     subcategory: "Vegan Desserts",
-    image: "/ai/vegan-vibes/desserts/jaffa-cake.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296324/image_290_y8nqso.jpg",
   },
 
 
@@ -3706,17 +3687,9 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Vibes",
     subcategory: "Vegan MilkShakes",
-    image: "/ai/vegan-vibes/milkshakes/chocolate-shake.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_305_ft9lre.jpg",
   },
-  {
-    id: "VV-MS-2",
-    name: "Vegan Biscoff Milkshake",
-    description: "Creamy biscoff-flavoured vegan shake.",
-    price: 7.99,
-    category: "Vegan Vibes",
-    subcategory: "Vegan MilkShakes",
-    image: "/ai/vegan-vibes/milkshakes/biscoff-shake.jpg",
-  },
+  
   {
     id: "VV-MS-3",
     name: "Vegan Strawberry Shake",
@@ -3724,17 +3697,9 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Vibes",
     subcategory: "Vegan MilkShakes",
-    image: "/ai/vegan-vibes/milkshakes/strawberry-shake.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296316/image_304_qjqssh.jpg",
   },
-  {
-    id: "VV-MS-4",
-    name: "Vegan Vanilla Shake",
-    description: "Classic vanilla shake with oat milk and vegan ice cream.",
-    price: 7.99,
-    category: "Vegan Vibes",
-    subcategory: "Vegan MilkShakes",
-    image: "/ai/vegan-vibes/milkshakes/vanilla-shake.jpg",
-  },
+  
   {
     id: "VV-MS-5",
     name: "Vegan Salted Caramel Milkshake",
@@ -3742,21 +3707,21 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Vibes",
     subcategory: "Vegan MilkShakes",
-    image: "/ai/vegan-vibes/milkshakes/salted-caramel.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296401/image_310_euxbog.jpg",
   },
-  { id: "VV-DR-1", name: "Green's Sour Cherry", description: "Refreshing cherry soda.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/sour-cherry.jpg" },
-  { id: "VV-DR-2", name: "Coke", description: "Classic Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/coke.jpg" },
-  { id: "VV-DR-3", name: "Coke Zero", description: "Zero sugar Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/coke-zero.jpg" },
-  { id: "VV-DR-4", name: "Green's Cola", description: "Plant-based natural cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/greens-cola.jpg" },
-  { id: "VV-DR-5", name: "Sprite", description: "Lemon-lime soda.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/sprite.jpg" },
-  { id: "VV-DR-6", name: "Old Jamaica Ginger Beer", description: "Strong ginger beer.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/ginger-beer.jpg" },
-  { id: "VV-DR-7", name: "Karma Ginger Beer", description: "Premium ginger beer.", price: 4.00, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/karma-ginger.jpg" },
-  { id: "VV-DR-8", name: "Fanta Orange", description: "Orange fizzy drink.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/fanta.jpg" },
-  { id: "VV-DR-9", name: "Diet Coke", description: "Low calorie cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/diet-coke.jpg" },
-  { id: "VV-DR-10", name: "Sparkling Water", description: "Carbonated water.", price: 2.00, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/sparkling-water.jpg" },
-  { id: "VV-DR-11", name: "Karma Lemony Lemonade", description: "Fresh lemon soda.", price: 4.00, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/lemony.jpg" },
-  { id: "VV-DR-12", name: "Redbull", description: "Energy drink.", price: 4.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/redbull.jpg" },
-  { id: "VV-DR-13", name: "Still Water", description: "Pure still water.", price: 2.00, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/still-water.jpg" },
+  { id: "VV-DR-1", name: "Green's Sour Cherry", description: "Refreshing cherry soda.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296570/image_270_fqepmc.jpg" },
+  { id: "VV-DR-2", name: "Coke", description: "Classic Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_283_zo6ldp.jpg" },
+  { id: "VV-DR-3", name: "Coke Zero", description: "Zero sugar Coca-Cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_301_zqm0o4.jpg" },
+  { id: "VV-DR-4", name: "Green's Cola", description: "Plant-based natural cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_269_rrqmw9.jpg" },
+  { id: "VV-DR-5", name: "Sprite", description: "Lemon-lime soda.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_279_cxiy10.jpg" },
+  { id: "VV-DR-6", name: "Old Jamaica Ginger Beer", description: "Strong ginger beer.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_314_ejt5xf.jpg" },
+  { id: "VV-DR-7", name: "Karma Ginger Beer", description: "Premium ginger beer.", price: 4.00, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_315_u9hoet.jpg" },
+  { id: "VV-DR-8", name: "Fanta Orange", description: "Orange fizzy drink.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_285_cimg0k.jpg" },
+  { id: "VV-DR-9", name: "Diet Coke", description: "Low calorie cola.", price: 3.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_306_xlsklq.jpg" },
+  { id: "VV-DR-10", name: "Sparkling Water", description: "Carbonated water.", price: 2.00, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg" },
+  { id: "VV-DR-11", name: "Karma Lemony Lemonade", description: "Fresh lemon soda.", price: 4.00, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296314/image_303_ca7iwc.jpg" },
+  { id: "VV-DR-12", name: "Redbull", description: "Energy drink.", price: 4.50, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_319_n6xhkq.jpg" },
+  { id: "VV-DR-13", name: "Still Water", description: "Pure still water.", price: 2.00, category: "Vegan Vibes", subcategory: "Drinks", image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296321/image_286_opgnlh.jpg" },
   { id: "VV-DR-14", name: "Karma Cola Can", description: "Natural cola drink.", price: 2.50, category: "Vegan Vibes", subcategory: "Drinks", image: "/ai/vegan-vibes/drinks/karma-cola.jpg" },
   {
     id: "VV-AL-1",
@@ -3765,7 +3730,7 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Vegan Vibes",
     subcategory: "Alcohol",
-    image: "/ai/vegan-vibes/alcohol/asahi.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296400/image_309_myts8g.jpg",
   },
   {
     id: "VV-AL-2",
@@ -3774,13 +3739,13 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Vegan Vibes",
     subcategory: "Alcohol",
-    image: "/ai/vegan-vibes/alcohol/asahi-zero.jpg",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296325/image_297_ajagnn.jpg",
   },
   {
-    "id": "BG1",
-    "name": "BYO Curry Meal Deal",
-    "description": "Build your own curry meal deal! Choose from a Thai Red Curry or Massaman Curry base, select your protein: chicken, prawns, tofu, seafood, mussels, soya bites, MOCK® Vegan Chicken, or vegan prawns. Served with your choice of jasmine rice, coconut rice, or egg fried rice (with or without chilli). A fully customizable, flavour-packed meal.",
-    "price": 16.99,
+    id: "BG1",
+    name: "BYO Curry Meal Deal",
+    description: "Build your own curry meal deal! Choose from a Thai Red Curry or Massaman Curry base, select your protein: chicken, prawns, tofu, seafood, mussels, soya bites, MOCK® Vegan Chicken, or vegan prawns. Served with your choice of jasmine rice, coconut rice, or egg fried rice (with or without chilli). A fully customizable, flavour-packed meal.",
+    price: 16.99,
     "category": "Bamboo Garden",
     "subcategory": "Meal Deals",
     "image": "/ai/bamboo-garden/byo-curry-meal-deal.jpg"
@@ -3793,7 +3758,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.9,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/satay-symphony-skewers-vegan.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_123_qkhbbl.jpg",
     "isPopular": true
   },
   {
@@ -3803,7 +3768,7 @@ export const menuItems: MenuItem[] = [
     "price": 8.85,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/salt-pepper-tofu.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433996/image_100_ljtvqw.jpg"
   },
   {
     "id": "BG4",
@@ -3812,7 +3777,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.45,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/veg-spring-rolls.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434006/image_107_h83sts.jpg",
     "isPopular": true
   },
   {
@@ -3822,7 +3787,7 @@ export const menuItems: MenuItem[] = [
     "price": 8.9,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/papaya-salad.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433999/image_103_javzem.jpg"
   },
   {
     "id": "BG6",
@@ -3831,7 +3796,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.0,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/salt-pepper-chicken.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433996/image_100_ljtvqw.jpg"
   },
   {
     "id": "BG7",
@@ -3840,7 +3805,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/aromatic-duck-harmony-rolls.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434006/image_109_lzxpvd.jpg"
   },
   {
     "id": "BG8",
@@ -3849,7 +3814,7 @@ export const menuItems: MenuItem[] = [
     "price": 8.88,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/fried-vegan-gyoza.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433848/image_155_vqxnxy.jpg"
   },
   {
     "id": "BG9",
@@ -3858,7 +3823,7 @@ export const menuItems: MenuItem[] = [
     "price": 8.45,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/duck-spring-rolls-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434006/image_109_lzxpvd.jpg"
   },
   {
     "id": "BG10",
@@ -3867,7 +3832,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.95,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/prawn-cracker-basket.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433843/image_148_japfgj.jpg"
   },
   {
     "id": "BG11",
@@ -3876,7 +3841,7 @@ export const menuItems: MenuItem[] = [
     "price": 4.95,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/crunchy-asian-slaw.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433838/image_141_pfvkko.jpg"
   },
   {
     "id": "BG12",
@@ -3885,7 +3850,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/exotic-soyamari-twists.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433996/image_101_gv2mjk.jpg"
   },
   {
     "id": "BG13",
@@ -3894,7 +3859,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/chilli-garlic-chicken.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434008/image_112_vklpqb.jpg"
   },
   {
     "id": "BG14",
@@ -3903,7 +3868,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/chilli-garlic-prawn.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433850/image_154_d4dxcl.jpg"
   },
   {
     "id": "BG15",
@@ -3912,7 +3877,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/ebi-katsu.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433859/image_163_z1xzmt.jpg"
   },
   {
     "id": "BG16",
@@ -3921,7 +3886,7 @@ export const menuItems: MenuItem[] = [
     "price": 8.45,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/mini-prawn-platter.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434001/image_105_m7gfay.jpg"
   },
   {
     "id": "BG17",
@@ -3930,7 +3895,7 @@ export const menuItems: MenuItem[] = [
     "price": 4.6,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/edamame-beans.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_135_jtnjxn.jpg"
   },
   {
     "id": "BG18",
@@ -3948,7 +3913,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.9,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/golden-crispy-chilli-lamb-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433995/image_99_nxunrr.jpg"
   },
   {
     "id": "BG20",
@@ -3957,7 +3922,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Oriental Starters",
-    "image": "/ai/bamboo-garden/golden-crispy-chicken-gyoza-bites.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433876/image_178_mlfiyt.jpg"
   },
 
   {
@@ -3967,7 +3932,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.49,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-massaman-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433837/image_139_fsdwbr.jpg"
   },
   {
     "id": "BG22",
@@ -3976,7 +3941,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-massaman-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_127_oek5oa.jpg"
   },
   {
     "id": "BG23",
@@ -3985,7 +3950,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-thai-green-curry.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_134_py1d9r.jpg",
     "isPopular": true
   },
   {
@@ -3995,7 +3960,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/nasi-goreng.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434740/image_133_glhbu6.jpg"
   },
   {
     "id": "BG25",
@@ -4004,7 +3969,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/spiced-chicken-nasi-goreng.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434005/image_106_matjn1.jpg",
     "isPopular": true
   },
   {
@@ -4014,7 +3979,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-red-thai-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434742/image_137_z9sskp.jpg"
   },
   {
     "id": "BG27",
@@ -4023,7 +3988,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-teriyaki-stir-fry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_122_kms2l4.jpg"
   },
   {
     "id": "BG28",
@@ -4032,7 +3997,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.95,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/soya-bites-black-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434730/image_120_bztatv.jpg"
   },
   {
     "id": "BG29",
@@ -4041,7 +4006,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-katsu.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433845/image_152_zcszps.jpg"
   },
   {
     "id": "BG30",
@@ -4050,7 +4015,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/seafood-thai-red-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433838/image_147_abb9cp.jpg"
   },
   {
     "id": "BG31",
@@ -4059,7 +4024,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/spicy-szechuan-chicken-fried-rice.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433869/image_171_cm37kh.jpg"
   },
   {
     "id": "BG32",
@@ -4068,7 +4033,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-ramen.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433851/image_158_m2af1i.jpg"
   },
   {
     "id": "BG33",
@@ -4077,7 +4042,7 @@ export const menuItems: MenuItem[] = [
     "price": 16.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/szechuan-lamb-fried-rice-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433999/image_102_iwumgs.jpg"
   },
   {
     "id": "BG34",
@@ -4086,7 +4051,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/spicy-szechuan-chicken-noodles.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433869/image_171_cm37kh.jpg",
     "isPopular": true
   },
   {
@@ -4096,7 +4061,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.5,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/bangkok-vegan-cod-fillets.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_131_pwqqmm.jpg"
   },
   {
     "id": "BG36",
@@ -4105,7 +4070,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.95,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-pad-thai.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_136_ab9e7l.jpg"
   },
   {
     "id": "BG37",
@@ -4114,7 +4079,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/prawn-thai-green-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_134_py1d9r.jpg"
   },
   {
     "id": "BG38",
@@ -4123,7 +4088,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-thai-red-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433837/image_146_oosuyg.jpg"
   },
   {
     "id": "BG39",
@@ -4132,7 +4097,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.15,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-pad-thai.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296855/image_148_dpfyj7.jpg"
   },
   {
     "id": "BG40",
@@ -4141,7 +4106,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.5,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-satay-pot-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434739/image_129_mb5mlc.jpg"
   },
   {
     "id": "BG41",
@@ -4150,7 +4115,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/stir-fry-plain-flat-rice-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296857/image_153_v6bdqn.jpg"
   },
   {
     "id": "BG42",
@@ -4159,7 +4124,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/pad-thai-paradise-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433844/image_142_gvepqn.jpg"
   },
   {
     "id": "BG43",
@@ -4168,7 +4133,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.15,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/prawn-pad-thai.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434731/image_119_lphckv.jpg"
   },
   {
     "id": "BG44",
@@ -4177,7 +4142,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.95,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-black-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434730/image_120_bztatv.jpg"
   },
   {
     "id": "BG45",
@@ -4186,7 +4151,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/sweet-sour-bites-stir-fry-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_122_kms2l4.jpg"
   },
   {
     "id": "BG46",
@@ -4195,7 +4160,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/vegetable-ramen.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433851/image_158_m2af1i.jpg"
   },
   {
     "id": "BG47",
@@ -4204,7 +4169,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-green-thai-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_134_py1d9r.jpg"
   },
   {
     "id": "BG48",
@@ -4213,7 +4178,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/vegan-som-tam-papaya-salad.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434008/image_110_i7udje.jpg"
   },
   {
     "id": "BG49",
@@ -4222,7 +4187,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/prawn-teriyaki-stir-fry-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_125_lalmnh.jpg"
   },
   {
     "id": "BG50",
@@ -4231,7 +4196,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/salmon-teriyaki-stir-fry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433974/image_83_dugsqo.jpg"
   },
   {
     "id": "BG51",
@@ -4240,7 +4205,7 @@ export const menuItems: MenuItem[] = [
     "price": 15.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/duck-pancake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433852/image_161_vg1zu1.jpg"
   },
   {
     "id": "BG52",
@@ -4249,7 +4214,7 @@ export const menuItems: MenuItem[] = [
     "price": 17.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/grilled-duck.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_124_nitwiv.jpg"
   },
   {
     "id": "BG53",
@@ -4258,7 +4223,7 @@ export const menuItems: MenuItem[] = [
     "price": 16.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/grilled-salmon.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433974/image_83_dugsqo.jpg"
   },
   {
     "id": "BG54",
@@ -4267,7 +4232,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/prawn-thai-red-curry-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433974/image_83_dugsqo.jpg"
   },
   {
     "id": "BG55",
@@ -4276,7 +4241,7 @@ export const menuItems: MenuItem[] = [
     "price": 11.95,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/mixed-vegetable-pad-thai.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_177_kgvtp1.jpg"
   },
   {
     "id": "BG56",
@@ -4285,7 +4250,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/mixed-vegetable-teriyaki-stir-fry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_177_kgvtp1.jpg"
   },
   {
     "id": "BG57",
@@ -4294,7 +4259,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.95,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/pad-thai-chicken-bites-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_177_kgvtp1.jpg"
   },
   {
     "id": "BG58",
@@ -4303,7 +4268,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.0,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/egg-pad-thai.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_177_kgvtp1.jpg"
   },
   {
     "id": "BG59",
@@ -4312,7 +4277,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/teriyaki-stir-fry-vegan-bites.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433878/image_181_v8e3a1.jpg"
   },
   {
     "id": "BG60",
@@ -4321,7 +4286,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-teriyaki-stir-fry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433842/image_145_ex3jur.jpg"
   },
   {
     "id": "BG61",
@@ -4330,7 +4295,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.2,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/sweet-sour-chicken-stir-fry-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_122_kms2l4.jpg"
   },
   {
     "id": "BG62",
@@ -4339,7 +4304,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/soya-thai-green-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_134_py1d9r.jpg"
   },
   {
     "id": "BG63",
@@ -4348,7 +4313,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/soya-bites-green-thai-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_134_py1d9r.jpg"
   },
   {
     "id": "BG64",
@@ -4357,7 +4322,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/soya-bites-massaman-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433864/image_166_oznz1v.jpg"
   },
   {
     "id": "BG65",
@@ -4366,7 +4331,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.5,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/soya-noodles-mains.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434743/image_138_efq8pp.jpg"
   },
   {
     "id": "BG66",
@@ -4375,7 +4340,7 @@ export const menuItems: MenuItem[] = [
     "price": 10.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/chicken-katsu-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433845/image_152_zcszps.jpg"
   },
   {
     "id": "BG67",
@@ -4384,7 +4349,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/vegan-vegetable-hakka-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433851/image_156_pd3ys8.jpg"
   },
   {
     "id": "BG68",
@@ -4393,7 +4358,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/classic-mangswirati-pad-thai-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434741/image_132_ltn77w.jpg"
   },
   {
     "id": "BG69",
@@ -4411,7 +4376,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.9,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tofu-treasure-green-thai-curry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433871/image_174_txid7q.jpg"
   },
   {
     "id": "BG71",
@@ -4420,7 +4385,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tangy-sweet-sour-chicken.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_172_zhzhbj.jpg"
   },
   {
     "id": "BG72",
@@ -4429,7 +4394,7 @@ export const menuItems: MenuItem[] = [
     "price": 15.99,
     "category": "Bamboo Garden",
     "subcategory": "Mains",
-    "image": "/ai/bamboo-garden/tangy-sweet-sour-prawns.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433874/image_172_zhzhbj.jpg"
   },
 
   {
@@ -4439,7 +4404,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.5,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-sweet-sour-chicken.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433888/image_190_tw4ujx.jpg"
   },
   {
     "id": "BG74",
@@ -4448,7 +4413,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-chicken-fillet-soya-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433859/image_167_imscdv.jpg"
   },
   {
     "id": "BG75",
@@ -4457,7 +4422,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.99,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-chicken-bites-soya-noodles.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433888/image_190_tw4ujx.jpg"
   },
   {
     "id": "BG76",
@@ -4466,7 +4431,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.99,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-soya-bites-noodles-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433859/image_167_imscdv.jpg"
   },
   {
     "id": "BG77",
@@ -4475,7 +4440,7 @@ export const menuItems: MenuItem[] = [
     "price": 14.49,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-chicken-katsu.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433881/image_184_va6tte.jpg"
   },
   {
     "id": "BG78",
@@ -4484,7 +4449,7 @@ export const menuItems: MenuItem[] = [
     "price": 13.49,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-chicken-katsu-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433881/image_184_va6tte.jpg"
   },
   {
     "id": "BG79",
@@ -4493,7 +4458,7 @@ export const menuItems: MenuItem[] = [
     "price": 12.5,
     "category": "Bamboo Garden",
     "subcategory": "KidsMenu",
-    "image": "/ai/bamboo-garden/kids-sweet-sour-chicken-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433859/image_167_imscdv.jpg"
   },
 
   {
@@ -4503,7 +4468,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.0,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/mixed-greens.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433841/image_143_vg115w.jpg"
   },
   {
     "id": "BG81",
@@ -4512,7 +4477,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.95,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/egg-fried-rice.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433887/image_189_tw731p.jpg"
   },
   {
     "id": "BG82",
@@ -4521,7 +4486,7 @@ export const menuItems: MenuItem[] = [
     "price": 5.99,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/sauteed-broccoli.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433844/image_149_aae7j7.jpg"
   },
   {
     "id": "BG83",
@@ -4530,7 +4495,7 @@ export const menuItems: MenuItem[] = [
     "price": 5.5,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/coconut-rice.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433880/image_183_ajqtip.jpg"
   },
   {
     "id": "BG84",
@@ -4539,7 +4504,7 @@ export const menuItems: MenuItem[] = [
     "price": 5.5,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/jasmine-rice.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433880/image_183_ajqtip.jpg"
   },
   {
     "id": "BG85",
@@ -4548,7 +4513,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.5,
     "category": "Bamboo Garden",
     "subcategory": "Sides",
-    "image": "/ai/bamboo-garden/soya-noodles-sides.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434743/image_138_efq8pp.jpg"
   },
 
   {
@@ -4558,7 +4523,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.49,
     "category": "Bamboo Garden",
     "subcategory": "Desserts",
-    "image": "/ai/bamboo-garden/vegan-apple-pie-custard.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433881/image_185_bdttf2.jpg"
   },
   {
     "id": "BG87",
@@ -4567,7 +4532,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.49,
     "category": "Bamboo Garden",
     "subcategory": "Desserts",
-    "image": "/ai/bamboo-garden/vegan-biscoff-cheesecake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_128_yasjpn.jpg"
   },
   {
     "id": "BG88",
@@ -4576,7 +4541,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.49,
     "category": "Bamboo Garden",
     "subcategory": "Desserts",
-    "image": "/ai/bamboo-garden/vegan-chocolate-fudge-cake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434717/image_116_qtbs4k.jpg"
   },
   {
     "id": "BG89",
@@ -4585,7 +4550,7 @@ export const menuItems: MenuItem[] = [
     "price": 9.49,
     "category": "Bamboo Garden",
     "subcategory": "Desserts",
-    "image": "/ai/bamboo-garden/vegan-salted-caramel-fudge-cake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433884/image_188_ztc8ab.jpg"
   },
 
   {
@@ -4595,7 +4560,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.99,
     "category": "Bamboo Garden",
     "subcategory": "Vegan MilkShakes",
-    "image": "/ai/bamboo-garden/vegan-chocolate-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433850/image_159_d5qi32.jpg"
   },
   {
     "id": "BG91",
@@ -4604,9 +4569,9 @@ export const menuItems: MenuItem[] = [
     "price": 7.99,
     "category": "Bamboo Garden",
     "subcategory": "Vegan MilkShakes",
-    "image": "/ai/bamboo-garden/vegan-strawberry-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433853/image_162_ugnake.jpg"
   },
-  {
+/*   {
     "id": "BG92",
     "name": "Vegan Biscoff Milkshake",
     "description": "Nutty, buttery, spiced Biscoff flavoured vegan shake.",
@@ -4614,7 +4579,7 @@ export const menuItems: MenuItem[] = [
     "category": "Bamboo Garden",
     "subcategory": "Vegan MilkShakes",
     "image": "/ai/bamboo-garden/vegan-biscoff-milkshake.jpg"
-  },
+  }, */
   {
     "id": "BG93",
     "name": "Vegan Salted Caramel Milkshake",
@@ -4622,7 +4587,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.99,
     "category": "Bamboo Garden",
     "subcategory": "Vegan MilkShakes",
-    "image": "/ai/bamboo-garden/vegan-salted-caramel-milkshake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg"
   },
   {
     "id": "BG94",
@@ -4631,7 +4596,7 @@ export const menuItems: MenuItem[] = [
     "price": 7.99,
     "category": "Bamboo Garden",
     "subcategory": "Vegan MilkShakes",
-    "image": "/ai/bamboo-garden/vegan-vanilla-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg  "
   },
 
   {
@@ -4641,7 +4606,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/coke-zero.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_301_zqm0o4.jpg"
   },
   {
     "id": "BG96",
@@ -4650,7 +4615,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/greens-sour-cherry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296570/image_270_fqepmc.jpg"
   },
   {
     "id": "BG97",
@@ -4659,7 +4624,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/fanta-orange.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_285_cimg0k.jpg"
   },
   {
     "id": "BG98",
@@ -4668,7 +4633,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/diet-coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_306_xlsklq.jpg"
   },
   {
     "id": "BG99",
@@ -4677,7 +4642,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/sprite.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_279_cxiy10.jpg"
   },
   {
     "id": "BG100",
@@ -4686,7 +4651,7 @@ export const menuItems: MenuItem[] = [
     "price": 2.0,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/sparkling-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg"
   },
   {
     "id": "BG101",
@@ -4695,7 +4660,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.0,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/still-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296321/image_286_opgnlh.jpg"
   },
   {
     "id": "BG102",
@@ -4704,7 +4669,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/tropicana-orange.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433883/image_187_nrijlk.jpg"
   },
   {
     "id": "BG103",
@@ -4713,7 +4678,7 @@ export const menuItems: MenuItem[] = [
     "price": 4.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/redbull.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_319_n6xhkq.jpg"
   },
   {
     "id": "BG104",
@@ -4722,7 +4687,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/old-jamaica-ginger-beer.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_314_ejt5xf.jpg"
   },
   {
     "id": "BG105",
@@ -4731,7 +4696,7 @@ export const menuItems: MenuItem[] = [
     "price": 4.0,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/karma-ginger-beer.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_315_u9hoet.jpg"
   },
   {
     "id": "BG106",
@@ -4740,7 +4705,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/greens-cola.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_269_rrqmw9.jpg"
   },
   {
     "id": "BG107",
@@ -4749,7 +4714,7 @@ export const menuItems: MenuItem[] = [
     "price": 3.5,
     "category": "Bamboo Garden",
     "subcategory": "Soft Drinks",
-    "image": "/ai/bamboo-garden/coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_283_zo6ldp.jpg"
   },
 
   {
@@ -4759,7 +4724,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.0,
     "category": "Bamboo Garden",
     "subcategory": "Alcohol",
-    "image": "/ai/bamboo-garden/asahi.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296400/image_309_myts8g.jpg"
   },
   {
     "id": "BG109",
@@ -4768,7 +4733,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.0,
     "category": "Bamboo Garden",
     "subcategory": "Alcohol",
-    "image": "/ai/bamboo-garden/asahi-super-dry-00.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296325/image_297_ajagnn.jpg"
   },
 
   {
@@ -4778,7 +4743,7 @@ export const menuItems: MenuItem[] = [
     "price": 6.99,
     "category": "Bamboo Garden",
     "subcategory": "Non Vegan Milkshakes",
-    "image": "/ai/bamboo-garden/vanilla-shake-non-vegan.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433866/image_170_anp2gj.jpg"
   },
   {
     id: "PP-MD-1",
@@ -4796,7 +4761,7 @@ export const menuItems: MenuItem[] = [
     price: 17.99,
     category: "Plan Party",
     subcategory: "Meal Deals",
-    image: "/ai/plan-party/loaded-burger-meal.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_80_wadnno.jpg"
   },
   {
     id: "PP-MD-3",
@@ -4805,7 +4770,7 @@ export const menuItems: MenuItem[] = [
     price: 15.99,
     category: "Plan Party",
     subcategory: "Meal Deals",
-    image: "/ai/plan-party/combo-burger-meal.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_80_wadnno.jpg"
   },
   {
     id: "PP-MD-4",
@@ -4827,7 +4792,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/bbq-bliss-texas-style.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621223/image_27_jszm6s.jpg"
   },
   {
     id: "PP-M-2",
@@ -4836,7 +4801,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/chikn-chikita-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_82_vfoqie.jpg"
   },
   {
     id: "PP-M-3",
@@ -4845,7 +4810,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/jerrys-jackfruit-wings.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_81_dlfqry.jpg"
   },
   {
     id: "PP-M-4",
@@ -4854,7 +4819,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/hash-harmony.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_84_lfw50j.jpg"
   },
   {
     id: "PP-M-5",
@@ -4863,7 +4828,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/dirty-chilli-dog.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621222/image_24_adivzg.jpg"
   },
   {
     id: "PP-M-6",
@@ -4872,7 +4837,7 @@ export const menuItems: MenuItem[] = [
     price: 11.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/seoulful-chikn-symphony.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621252/image_37_n7us0a.jpg"
   },
   {
     id: "PP-M-7",
@@ -4881,7 +4846,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/classic-vegan-dog.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621592/image_95_vzivft.jpg"
   },
   {
     id: "PP-M-8",
@@ -4890,7 +4855,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/vegan-mexican-chilli.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621591/image_94_ytqkip.jpg"
   },
   {
     id: "PP-M-9",
@@ -4899,7 +4864,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/jackfruit-magic.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621546/image_89_vrmdru.jpg"
   },
   {
     id: "PP-M-10",
@@ -4908,7 +4873,7 @@ export const menuItems: MenuItem[] = [
     price: 11.90,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/vegan-bean-burger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621221/image_23_ijntxi.jpg"
   },
   {
     id: "PP-M-11",
@@ -4917,7 +4882,7 @@ export const menuItems: MenuItem[] = [
     price: 12.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/smoky-bacon-cheeseburger.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621222/image_13_hvb8ph.jpg"
   },
   {
     id: "PP-M-12",
@@ -4926,7 +4891,7 @@ export const menuItems: MenuItem[] = [
     price: 13.99,
     category: "Plan Party",
     subcategory: "Mains",
-    image: "/ai/plan-party/maple-marvel-double.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621343/image_41_orqd89.jpg"
   },
 
   // ===========================
@@ -4939,7 +4904,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/ranch-loaded-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621222/image_22_io0ggn.jpg"
   },
   {
     id: "PP-S-2",
@@ -4948,7 +4913,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/buffalo-wing-waltz.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621344/image_64_cehtfu.jpg"
   },
   {
     id: "PP-S-3",
@@ -4957,7 +4922,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/gochujang-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621222/image_12_tr4s5j.jpg"
   },
   {
     id: "PP-S-4",
@@ -4966,7 +4931,7 @@ export const menuItems: MenuItem[] = [
     price: 3.60,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/golden-crunch-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621592/image_97_uhtieg.jpg"
   },
   {
     id: "PP-S-5",
@@ -4975,7 +4940,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/onion-rings.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621223/image_35_ddcqwq.jpg"
   },
   {
     id: "PP-S-6",
@@ -4984,7 +4949,15 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Plan Party",
     subcategory: "Sides",
-    image: "/ai/plan-party/sweet-potato-fries.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621342/image_51_bdrctl.jpg"
+  },  {
+    id: "PP-S-7",
+    name: "Chipotle BBQ Loaded Fries",
+    description: "Sweet potato fries with a hint of seasoning.",
+    price: 5.50,
+    category: "Plan Party",
+    subcategory: "Sides",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621223/image_32_gv8qg9.jpg"
   },
 
   // ===========================
@@ -5073,7 +5046,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/greens-sour-cherry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296570/image_270_fqepmc.jpg"
   },
   {
     id: "PP-DR-2",
@@ -5082,7 +5055,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_283_zo6ldp.jpg"
   },
   {
     id: "PP-DR-3",
@@ -5091,7 +5064,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/diet-coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_306_xlsklq.jpg"
   },
   {
     id: "PP-DR-4",
@@ -5100,7 +5073,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/coke-zero.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_301_zqm0o4.jpg"
   },
   {
     id: "PP-DR-5",
@@ -5109,7 +5082,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/fanta-orange.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_285_cimg0k.jpg"
   },
   {
     id: "PP-DR-6",
@@ -5118,7 +5091,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/j20.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_85_vpotsl.jpg"
   },
   {
     id: "PP-DR-7",
@@ -5127,7 +5100,7 @@ export const menuItems: MenuItem[] = [
     price: 4.00,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/karma-ginger-beer.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_315_u9hoet.jpg"
   },
   {
     id: "PP-DR-8",
@@ -5136,7 +5109,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/old-jamaica-ginger.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_314_ejt5xf.jpg"
   },
   {
     id: "PP-DR-9",
@@ -5145,7 +5118,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/redbull.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_319_n6xhkq.jpg"
   },
   {
     id: "PP-DR-10",
@@ -5154,7 +5127,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/sprite.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_279_cxiy10.jpg"
   },
   {
     id: "PP-DR-11",
@@ -5163,7 +5136,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/tropicana-orange.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433883/image_187_nrijlk.jpg"
   },
   {
     id: "PP-DR-12",
@@ -5172,7 +5145,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/greens-cola.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_269_rrqmw9.jpg"
   },
   {
     id: "PP-DR-13",
@@ -5181,7 +5154,7 @@ export const menuItems: MenuItem[] = [
     price: 3.00,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/still-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296321/image_286_opgnlh.jpg"
   },
   {
     id: "PP-DR-14",
@@ -5190,7 +5163,7 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Plan Party",
     subcategory: "Drinks",
-    image: "/ai/plan-party/sparkling-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg"
   },
 
   // ===========================
@@ -5203,7 +5176,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Plan Party",
     subcategory: "Dessearts",
-    image: "/ai/plan-party/vegan-apple-pie.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621342/image_48_xzp83k.jpg "
   },
   {
     id: "PP-DE-2",
@@ -5212,7 +5185,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Plan Party",
     subcategory: "Dessearts",
-    image: "/ai/plan-party/salted-caramel-fudge-cake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433884/image_188_ztc8ab.jpg"
   },
   {
     id: "PP-DE-3",
@@ -5221,7 +5194,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Plan Party",
     subcategory: "Dessearts",
-    image: "/ai/plan-party/vegan-jaffa-cake.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621343/image_40_vmztkr.jpg"
   },
   {
     id: "PP-DE-4",
@@ -5230,7 +5203,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Plan Party",
     subcategory: "Dessearts",
-    image: "/ai/plan-party/biscoff-cheesecake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_128_yasjpn.jpg"
   },
   {
     id: "PP-DE-5",
@@ -5239,7 +5212,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Plan Party",
     subcategory: "Dessearts",
-    image: "/ai/plan-party/vegan-chocolate-fudge-cake.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621220/image_19_rejhhz.jpg"
   },
 
   // ===========================
@@ -5252,7 +5225,7 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Plan Party",
     subcategory: "Alcohol",
-    image: "/ai/plan-party/asahi.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296400/image_309_myts8g.jpg"
   },
   {
     id: "PP-A-2",
@@ -5261,7 +5234,7 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Plan Party",
     subcategory: "Alcohol",
-    image: "/ai/plan-party/asahi-00.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296325/image_297_ajagnn.jpg"
   },
 
   // ===========================
@@ -5274,7 +5247,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Plan Party",
     subcategory: "Milkshakes",
-    image: "/ai/plan-party/strawberry-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433853/image_162_ugnake.jpg"
   },
   {
     id: "PP-MS-2",
@@ -5283,7 +5256,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Plan Party",
     subcategory: "Milkshakes",
-    image: "/ai/plan-party/chocolate-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433850/image_159_d5qi32.jpg"
   },
   {
     id: "PP-MS-3",
@@ -5292,7 +5265,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Plan Party",
     subcategory: "Milkshakes",
-    image: "/ai/plan-party/vanilla-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg  "
   },
   {
     id: "PP-MS-4",
@@ -5301,17 +5274,9 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Plan Party",
     subcategory: "Milkshakes",
-    image: "/ai/plan-party/salted-caramel-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg"
   },
-  {
-    id: "PP-MS-5",
-    name: "Vegan Biscoff Milkshake",
-    description: "Nutty, buttery biscoff-flavoured vegan shake.",
-    price: 7.99,
-    category: "Plan Party",
-    subcategory: "Milkshakes",
-    image: "/ai/plan-party/biscoff-shake.jpg"
-  },
+ 
   
 {
     id: "VC-ST-1",
@@ -5320,7 +5285,7 @@ export const menuItems: MenuItem[] = [
     price: 9.90,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/mac-harmony.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623890/image_56_myrux6.jpg"
   },
   {
     id: "VC-ST-2",
@@ -5329,7 +5294,7 @@ export const menuItems: MenuItem[] = [
     price: 6.90,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/fried-plantain.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623890/image_55_elaukr.jpg"
   },
   {
     id: "VC-ST-3",
@@ -5338,7 +5303,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/bean-patty.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623771/image_36_cmebf3.jpg"
   },
   {
     id: "VC-ST-4",
@@ -5347,7 +5312,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/callaloo-patty.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623771/image_36_cmebf3.jpg"
   },
   {
     id: "VC-ST-5",
@@ -5356,7 +5321,7 @@ export const menuItems: MenuItem[] = [
     price: 8.90,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/veg-patty.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623771/image_36_cmebf3.jpg"
   },
   {
     id: "VC-ST-6",
@@ -5365,7 +5330,7 @@ export const menuItems: MenuItem[] = [
     price: 10.99,
     category: "Vegan Caribbean",
     subcategory: "Starters",
-    image: "/ai/vegan-caribbean/island-zest-salad.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623851/image_48_ken2w5.jpg"
   },
   {
     id: "VC-M-1",
@@ -5374,7 +5339,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Caribbean",
     subcategory: "Mains",
-    image: "/ai/vegan-caribbean/vegan-goatless-feast.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624689/image_7_w8dyfi.jpg"
   },
   {
     id: "VC-M-2",
@@ -5383,7 +5348,7 @@ export const menuItems: MenuItem[] = [
     price: 15.90,
     category: "Vegan Caribbean",
     subcategory: "Mains",
-    image: "/ai/vegan-caribbean/pumpkin-chickpea-curry.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623849/image_47_syetwl.jpg"
   },
   {
     id: "VC-M-3",
@@ -5392,7 +5357,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Caribbean",
     subcategory: "Mains",
-    image: "/ai/vegan-caribbean/jerk-chikn-stew.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623914/image_66_f2x15e.jpg"
   },
   {
     id: "VC-M-4",
@@ -5401,7 +5366,7 @@ export const menuItems: MenuItem[] = [
     price: 16.90,
     category: "Vegan Caribbean",
     subcategory: "Mains",
-    image: "/ai/vegan-caribbean/jerk-cod.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623876/image_49_hnymgg.jpg"
   },
   {
     id: "VC-M-5",
@@ -5410,7 +5375,7 @@ export const menuItems: MenuItem[] = [
     price: 12.90,
     category: "Vegan Caribbean",
     subcategory: "Mains",
-    image: "/ai/vegan-caribbean/jerk-sausage-corn.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624333/image_83_vupxc5.jpg"
   },
 
   // ===========================
@@ -5423,7 +5388,7 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/paratha.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624333/image_77_sh16ae.jpg"
   },
   {
     id: "VC-S-2",
@@ -5432,7 +5397,7 @@ export const menuItems: MenuItem[] = [
     price: 5.90,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/callaloo.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624738/image_24_xl1nkx.jpg"
   },
   {
     id: "VC-S-3",
@@ -5441,7 +5406,7 @@ export const menuItems: MenuItem[] = [
     price: 3.99,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/corn-on-cob.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623848/image_37_fgylv1.jpg"
   },
   {
     id: "VC-S-4",
@@ -5450,7 +5415,7 @@ export const menuItems: MenuItem[] = [
     price: 7.90,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/plantain-bean-sauce.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623890/image_55_elaukr.jpg"
   },
   {
     id: "VC-S-5",
@@ -5459,7 +5424,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/potato-salad.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623220/image_50_n2gdqh.jpg"
   },
   {
     id: "VC-S-6",
@@ -5468,7 +5433,7 @@ export const menuItems: MenuItem[] = [
     price: 5.40,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/sweet-potato-wedges.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624738/image_26_jjyafm.jpg"
   },
   {
     id: "VC-S-7",
@@ -5477,7 +5442,7 @@ export const menuItems: MenuItem[] = [
     price: 4.90,
     category: "Vegan Caribbean",
     subcategory: "Sides",
-    image: "/ai/vegan-caribbean/rice-and-beans.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765624688/image_3_jby3ry.jpg"
   },
 
   // ===========================
@@ -5490,7 +5455,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Caribbean",
     subcategory: "Desserts",
-    image: "/ai/vegan-caribbean/biscoff-cheesecake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434737/image_128_yasjpn.jpg"
   },
   {
     id: "VC-D-2",
@@ -5499,7 +5464,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Caribbean",
     subcategory: "Desserts",
-    image: "/ai/vegan-caribbean/salted-caramel-fudge.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433884/image_188_ztc8ab.jpg"
   },
   {
     id: "VC-D-3",
@@ -5508,7 +5473,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Caribbean",
     subcategory: "Desserts",
-    image: "/ai/vegan-caribbean/chocolate-fudge-cake.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621220/image_19_rejhhz.jpg"
   },
   {
     id: "VC-D-4",
@@ -5517,7 +5482,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Caribbean",
     subcategory: "Desserts",
-    image: "/ai/vegan-caribbean/apple-pie.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621342/image_48_xzp83k.jpg "
   },
   {
     id: "VC-D-5",
@@ -5526,7 +5491,7 @@ export const menuItems: MenuItem[] = [
     price: 9.49,
     category: "Vegan Caribbean",
     subcategory: "Desserts",
-    image: "/ai/vegan-caribbean/vegan-jaffa-cake.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621343/image_40_vmztkr.jpg"
   },
 
   // ===========================
@@ -5539,7 +5504,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Caribbean",
     subcategory: "Vegan Milkshakes",
-    image: "/ai/vegan-caribbean/chocolate-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433850/image_159_d5qi32.jpg"
   },
   {
     id: "VC-MS-2",
@@ -5548,17 +5513,9 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Caribbean",
     subcategory: "Vegan Milkshakes",
-    image: "/ai/vegan-caribbean/salted-caramel-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg"
   },
-  {
-    id: "VC-MS-3",
-    name: "Vegan Biscoff Milkshake",
-    description: "Nutty and buttery biscoff-flavoured vegan shake.",
-    price: 7.99,
-    category: "Vegan Caribbean",
-    subcategory: "Vegan Milkshakes",
-    image: "/ai/vegan-caribbean/biscoff-shake.jpg"
-  },
+  
   {
     id: "VC-MS-4",
     name: "Vegan Strawberry Shake",
@@ -5566,7 +5523,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Caribbean",
     subcategory: "Vegan Milkshakes",
-    image: "/ai/vegan-caribbean/strawberry-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765433853/image_162_ugnake.jpg"
   },
   {
     id: "VC-MS-5",
@@ -5575,7 +5532,7 @@ export const menuItems: MenuItem[] = [
     price: 7.99,
     category: "Vegan Caribbean",
     subcategory: "Vegan Milkshakes",
-    image: "/ai/vegan-caribbean/vanilla-shake.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765434732/image_118_t0xrre.jpg  "
   },
 
   // ===========================
@@ -5588,7 +5545,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/old-jamaica.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_314_ejt5xf.jpg"
   },
   {
     id: "VC-SD-2",
@@ -5597,7 +5554,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/greens-sour-cherry.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296570/image_270_fqepmc.jpg"
   },
   {
     id: "VC-SD-3",
@@ -5606,7 +5563,7 @@ export const menuItems: MenuItem[] = [
     price: 4.00,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/karma-ginger.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_315_u9hoet.jpg"
   },
   {
     id: "VC-SD-4",
@@ -5615,7 +5572,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/coke-zero.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_301_zqm0o4.jpg"
   },
   {
     id: "VC-SD-5",
@@ -5624,7 +5581,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/diet-coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_306_xlsklq.jpg"
   },
   {
     id: "VC-SD-6",
@@ -5633,7 +5590,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/coke.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_283_zo6ldp.jpg"
   },
   {
     id: "VC-SD-7",
@@ -5642,7 +5599,7 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/sparkling-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg"
   },
   {
     id: "VC-SD-8",
@@ -5651,7 +5608,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/fanta-orange.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_285_cimg0k.jpg"
   },
   {
     id: "VC-SD-9",
@@ -5660,7 +5617,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/sprite.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_279_cxiy10.jpg"
   },
   {
     id: "VC-SD-10",
@@ -5669,7 +5626,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/greens-cola.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_269_rrqmw9.jpg"
   },
   {
     id: "VC-SD-11",
@@ -5678,7 +5635,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/j20.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_85_vpotsl.jpg"
   },
   {
     id: "VC-SD-12",
@@ -5687,7 +5644,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/redbull.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_319_n6xhkq.jpg"
   },
   {
     id: "VC-SD-13",
@@ -5705,7 +5662,7 @@ export const menuItems: MenuItem[] = [
     price: 3.00,
     category: "Vegan Caribbean",
     subcategory: "Soft Drinks",
-    image: "/ai/vegan-caribbean/still-water.jpg"
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296321/image_286_opgnlh.jpg"
   },
   {
     id: "VC-SD-15",
@@ -5727,7 +5684,7 @@ export const menuItems: MenuItem[] = [
     price: 6.00,
     category: "Vegan Caribbean",
     subcategory: "Alcohol",
-    image: "/ai/vegan-caribbean/corona.jpg"
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765623647/image_64_hr2sdt.jpg"
   },{
     id: "SD-1",
     name: "Green's Sour Cherry",
@@ -5735,7 +5692,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
    subcategory: "",
-    image: "/ai/soft-drinks/sour-cherry.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296570/image_270_fqepmc.jpg"
   },
   {
     id: "SD-2",
@@ -5744,7 +5701,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/coke.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_283_zo6ldp.jpg"
   },
   {
     id: "SD-3",
@@ -5753,7 +5710,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/coke-zero.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296327/image_301_zqm0o4.jpg"
   },
   {
     id: "SD-4",
@@ -5762,7 +5719,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
    subcategory: "",
-    image: "/ai/soft-drinks/greens-cola.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296569/image_269_rrqmw9.jpg"
   },
   {
     id: "SD-5",
@@ -5771,7 +5728,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/sprite.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296317/image_279_cxiy10.jpg"
   },
   {
     id: "SD-6",
@@ -5780,7 +5737,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/old-jamaica-ginger-beer.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296402/image_314_ejt5xf.jpg"
   },
   {
     id: "SD-7",
@@ -5789,7 +5746,7 @@ export const menuItems: MenuItem[] = [
     price: 4.00,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/karma-ginger-beer.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296403/image_315_u9hoet.jpg"
   },
   {
     id: "SD-8",
@@ -5798,7 +5755,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/fanta.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296318/image_285_cimg0k.jpg"
   },
   {
     id: "SD-9",
@@ -5807,7 +5764,7 @@ export const menuItems: MenuItem[] = [
     price: 3.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/diet-coke.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296399/image_306_xlsklq.jpg"
   },
   {
     id: "SD-10",
@@ -5816,7 +5773,7 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Soft Drinks",
    subcategory: "",
-    image: "/ai/soft-drinks/sparkling-water.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg"
   },
   {
     id: "SD-11",
@@ -5834,7 +5791,7 @@ export const menuItems: MenuItem[] = [
     price: 4.50,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/redbull.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_319_n6xhkq.jpg"
   },
   {
     id: "SD-13",
@@ -5843,7 +5800,23 @@ export const menuItems: MenuItem[] = [
     price: 2.00,
     category: "Soft Drinks",
     subcategory: "",
-    image: "/ai/soft-drinks/still-water.jpg",
+    "image": "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765296404/image_318_xd99y1.jpg"
+  }, {
+    id: "SD-21",
+    name: "J20",
+    description: "Premium mixed fruit drink.",
+    price: 4.50,
+    category: "Soft Drinks",
+    subcategory: "",
+    image: "https://res.cloudinary.com/dmhtdtlxk/image/upload/v1765621545/image_85_vpotsl.jpg"
+  },{
+    id: "SD-23",
+    name: "Schweppes Tonic Water",
+    description: "Refreshing tonic water.",
+    price: 4.00,
+     category: "Soft Drinks",
+    subcategory: "",
+    image: "/ai/vegan-caribbean/tonic-water.jpg"
   },
   {
     id: "SD-14",
@@ -5854,6 +5827,7 @@ export const menuItems: MenuItem[] = [
     subcategory: "",
     image: "/ai/soft-drinks/karma-cola.jpg",
   },
+
 {
     id: "AL-1",
     name: "Asahi",
@@ -5871,7 +5845,134 @@ export const menuItems: MenuItem[] = [
     category: "Alcohol",
     subcategory: "",
     image: "/ai/alcohol/asahi-zero.jpg",
+  },// =======================
+  // COCKTAILS
+  // =======================
+  {
+    id: "CT-01",
+    name: "Espresso Martini",
+    description: "Smirnoff vodka, espresso, Kahlua coffee liqueur, sugar syrup",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/espresso-martini.jpg"
   },
+  {
+    id: "CT-02",
+    name: "Passion Fruit Martini",
+    description: "Smirnoff vodka, passion fruit purée, pineapple juice, Passoa, sugar syrup",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/passion-fruit-martini.jpg"
+  },
+  {
+    id: "CT-03",
+    name: "Sex on the Beach",
+    description: "Smirnoff vodka, orange juice, cranberry juice, peach schnapps",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/sex-on-the-beach.jpg"
+  },
+  {
+    id: "CT-04",
+    name: "Bloody Mary",
+    description: "Smirnoff spicy tamarind vodka, tomato juice, lemon juice, salt, sugar syrup",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/bloody-mary.jpg"
+  },
+  {
+    id: "CT-05",
+    name: "Strawberry Daiquiri",
+    description: "Captain Morgan’s rum, strawberry, lime, blended with ice",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/strawberry-daiquiri.jpg"
+  },
+  {
+    id: "CT-06",
+    name: "Dark ’N’ Stormy",
+    description: "Captain Morgan’s Black Spiced rum, Old Jamaican ginger beer, lime juice, dash of Angostura bitters",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/dark-n-stormy.jpg"
+  },
+  {
+    id: "CT-07",
+    name: "Mojito",
+    description: "Captain Morgan’s rum, lime, sugar, mint",
+    price: 0,
+    category: "Cocktails",
+    subcategory: "",
+    image: "/ai/cocktails/mojito.jpg"
+  },
+
+  // =======================
+  // SPRITZ
+  // =======================
+  {
+    id: "SP-01",
+    name: "Aperol Spritz",
+    description: "Aperol, Prosecco, soda, served over ice and garnished with a fresh orange slice",
+    price: 0,
+    category: "Spritz",
+    subcategory: "",
+    image: "/ai/spritz/aperol-spritz.jpg"
+  },
+  {
+    id: "SP-02",
+    name: "Limoncello Spritz",
+    description: "Limoncello, fresh lemon juice, Prosecco, served over ice and garnished with a fresh lemon slice",
+    price: 0,
+    category: "Spritz",
+    subcategory: "",
+    image: "/ai/spritz/limoncello-spritz.jpg"
+  },
+  {
+    id: "SP-03",
+    name: "Gordon’s Pink Gin Spritz",
+    description: "Gordon’s Pink Gin, lemonade, Prosecco, served over ice and garnished with fresh strawberries",
+    price: 0,
+    category: "Spritz",
+    subcategory: "",
+    image: "/ai/spritz/pink-gin-spritz.jpg"
+  },
+  {
+    id: "SP-04",
+    name: "Campari Spritz",
+    description: "Campari, Prosecco, soda, served over ice and garnished with a fresh orange slice",
+    price: 0,
+    category: "Spritz",
+    subcategory: "",
+    image: "/ai/spritz/campari-spritz.jpg"
+  },
+
+  // =======================
+  // MOCKTAILS
+  // =======================
+  {
+    id: "MK-01",
+    name: "Passion Fruit Martini",
+    description: "Passion fruit, pineapple juice, sugar syrup",
+    price: 0,
+    category: "Mocktails",
+    subcategory: "",
+    image: "/ai/mocktails/passion-fruit-martini.jpg"
+  },
+  {
+    id: "MK-02",
+    name: "Mojito",
+    description: "Lime juice, fresh mint leaves, sugar syrup, served over ice with fresh lime",
+    price: 0,
+    category: "Mocktails",
+    subcategory: "",
+    image: "/ai/mocktails/mojito.jpg"
+  }
 
 ];
 
@@ -5888,7 +5989,10 @@ export const categories: string[] = [
   "Plan Party",
   "Vegan Caribbean",
   "Soft Drinks",
-  "Alcohol"
+  "Alcohol",
+  "Spritz",
+  "Mocktails",
+  "Cocktails",
 ];
 
 // Strong typing for categoryTree
@@ -5908,5 +6012,6 @@ export const categoryTree: CategoryTreeType = {
   "Bamboo Garden": ["Meal Deals","Oriental Starters","Mains","KidsMenu","Sides","Desserts","Vegan MilkShakes","Soft Drinks","Alcohol","Non Vegan Milkshakes"],
   "Plan Party": ["Meal Deals","Mains","Sides","Dips","Drinks","Dessearts","Alcohol","Milkshakes"],
   "Vegan Caribbean": ["Starters","Mains","Sides","Soft Drinks","Desserts","Alcohol","Vegan Milkshakes"],
+  
  
 };
