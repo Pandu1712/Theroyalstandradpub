@@ -76,7 +76,7 @@ const Events = () => {
           <div className="text-center mb-16 animate-fade-in-up">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
               <span className="bg-[#895129] bg-clip-text text-transparent">
-                Upcoming Events
+                Events
               </span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
