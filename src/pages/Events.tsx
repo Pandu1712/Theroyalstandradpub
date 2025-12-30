@@ -5,7 +5,17 @@ const Events = () => {
   const navigate = useNavigate();
 
   const upcomingEvents = [
-    {
+     {
+      title: 'New Year Celebration',
+      date: '2025-12-31',
+      time: '8:00 PM',
+      description:
+        'Step into the New Year with joy, great vibes, and unforgettable celebrations..',
+      image:
+        '/NewYearPoster.jpeg',
+      price: 'Free Entry',
+    },
+    { 
       title: 'Live Jazz Night',
       date: '2024-12-15',
       time: '8:00 PM - 11:00 PM',
@@ -122,13 +132,17 @@ const Events = () => {
 
                     <div className="flex items-center space-x-3 text-gray-300">
                       <MapPin className="w-5 h-5 text-[#895129]" />
-                      <span>The Royal Pint</span>
+                      <span>The Royal Standarad Pub</span>
                     </div>
                   </div>
 
                   <p className="text-gray-400 mb-6 leading-relaxed">
                     {event.description}
                   </p>
+                  <p className="text-gray-400 mb-6 leading-relaxed">
+                    {event.price}
+                  </p>
+
 
                   <button
                     className="w-full py-3 bg-[#895129] text-white rounded-full font-semibold hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 shadow-lg flex items-center justify-center space-x-2"

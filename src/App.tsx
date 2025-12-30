@@ -1,10 +1,11 @@
 import { CartProvider } from "./context/CartContext";
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingButtons from "./components/FloatingButtons";
+import AutoPopup from "./components/AutoPopup";
 
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
@@ -21,28 +22,27 @@ function App() {
     <CartProvider>
       <ScrollToTop />
 
-      <div className="min-h-screen bg-slate-900 flex flex-col">
-        <Navbar />
+      {/* FIXED HEADER */}
+      <Header />
 
-        <div className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/product/:id" element={<ProductDetail />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
+      {/* PAGE CONTENT */}
+      <main className="bg-slate-90 min-h-screen">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
 
-        <Footer />
-
-        {/* Sticky WhatsApp + Down Arrow */}
-        <FloatingButtons />
-      </div>
+      <Footer />
+      <FloatingButtons />
+      <AutoPopup />
     </CartProvider>
   );
 }

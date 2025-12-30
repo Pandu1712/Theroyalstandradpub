@@ -30,10 +30,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-500 nav-font ${
+      className={`fixed w-full z-50 transition-all duration-500 nav-font mt-8 ${
         scrolled
           ? "bg-slate-900/95 backdrop-blur-md shadow-2xl"
-          : "bg-gradient-to-r from-slate-900/80 to-slate-800/80 backdrop-blur-sm"
+          : "bg-slate-900/95 backdrop-blur-sm"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           {/* ================= LOGO + BRAND ================= */}
           <div
-            className="flex items-center gap-3 cursor-pointer group"
+            className="flex items-center gap-3 cursor-pointer group mt-2"
             onClick={() => navigate("/")}
           >
             {/* Logo */}
