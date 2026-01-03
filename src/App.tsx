@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingButtons from "./components/FloatingButtons";
-import AutoPopup from "./components/AutoPopup";
 
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
@@ -42,7 +41,7 @@ function App() {
 
       <Footer />
       <FloatingButtons />
-      <AutoPopup />
+      
     </CartProvider>
   );
 }
